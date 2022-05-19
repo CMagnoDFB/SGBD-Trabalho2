@@ -1,0 +1,13 @@
+46,Purple Cornichon,tinto,2013,0,435,gilded-noir,2016,46,1
+47,Riesling,branco,1913,2,7,agile-barbaresco,1916,47,1
+47,Riesling,branco,1913,2,14,cruel-albariño,1916,47,3
+47,Riesling,branco,1913,2,37,warm-banylus,1916,47,3
+47,Riesling,branco,1913,2,44,black-chardonnay,1916,47,2
+47,Riesling,branco,1913,2,60,salmon-blanc,1916,47,2
+47,Riesling,branco,1913,2,97,merciless-merlot,1916,47,1
+47,Riesling,branco,1913,2,161,parallel-zinfandel,1916,47,2
+47,Riesling,branco,1913,2,180,one-sherry,1916,47,2
+48,Cabernet Sauvignon,tinto,1946,3,65,elaborate-pinot,1952,48,1
+48,Cabernet Sauvignon,tinto,1946,3,127,concrete-beaujolais,1952,48,3
+48,Cabernet Sauvignon,tinto,1946,3,237,ternary-chablis,1952,48,1
+12

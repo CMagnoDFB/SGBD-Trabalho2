@@ -136,8 +136,7 @@ class Operador
 public:
     Operador(Tabela tabela_1, Tabela tabela_2, string col_tab_1, string col_tab_2)
     {
-        std::filesystem::remove_all(path);
-        std::filesystem::create_directories(path_pags);
+
         tabela_1.indice_col = tabela_1.nome_para_indice[col_tab_1];
         tabela_2.indice_col = tabela_2.nome_para_indice[col_tab_2];
         // Checando se existe indice pra alguma coluna e definindo relação externa e interna:
@@ -147,12 +146,16 @@ public:
         {
             this->interna = tabela_1;
             this->externa = tabela_2;
+            this->col_tab_int = col_tab_1;
+            this->col_tab_ext = col_tab_2;
             this->viabilidade = true;
         }
         else if (std::filesystem::is_directory(path2))
         {
             this->interna = tabela_2;
             this->externa = tabela_1;
+            this->col_tab_int = col_tab_2;
+            this->col_tab_ext = col_tab_1;
             this->viabilidade = true;
         }
         else
@@ -166,12 +169,18 @@ public:
             cout << "Relação externa é " << externa.nome << endl;
             cout << "Relação interna é " << interna.nome << endl;
         }
+
+        this->path = "operacoes/" + externa.nome + " JOIN " + interna.nome + " WHERE " + externa.nome.at(0) + "." + col_tab_ext + " = " + interna.nome.at(0) + "." + col_tab_int + "/";
+        this->path_pags = path + "paginas/";
+        std::filesystem::remove_all(path);
+        std::filesystem::create_directories(path_pags);
     }
     Tabela externa;
     Tabela interna;
     bool viabilidade;
-    string path = "operacao/";
-    string path_pags = "operacao/paginas/";
+    string path;
+    string path_pags;
+    string col_tab_int, col_tab_ext;
     int paginas_geradas = 0;
     int tuplas_geradas = 0;
     int numPagsGeradas()
@@ -188,7 +197,7 @@ public:
     }
     void salvarTuplasGeradas(string csv_nome)
     {
-        ofstream csv(csv_nome);
+        ofstream csv(this->externa.nome + " " + this->interna.nome + csv_nome);
         csv << externa.colunas << "," << interna.colunas << '\n';
         ifstream operacao(path + "tabela.txt");
         auto paginas = getline_vector(operacao);
@@ -294,7 +303,8 @@ public:
         {
             op_tabela << "," << i;
         }
-        op_tabela << '\n' << paginas_geradas << '\n';
+        op_tabela << '\n'
+                  << paginas_geradas << '\n';
         op_tabela << externa.colunas << "," << interna.colunas << '\n';
         op_tabela.close();
     }

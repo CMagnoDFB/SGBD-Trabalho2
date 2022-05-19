@@ -1,0 +1,13 @@
+35,Chardonnay,tinto,1941,1,339,tense-arneis,1942,35,2
+35,Chardonnay,tinto,1941,1,362,scared-madeira,1942,35,3
+36,Saint Macaire,rosé,1924,2,10,ragged-chablis,1928,36,3
+36,Saint Macaire,rosé,1924,2,71,silver-dolcetto,1928,36,3
+36,Saint Macaire,rosé,1924,2,242,fat-muscat,1928,36,2
+36,Saint Macaire,rosé,1924,2,295,clever-noir,1928,36,2
+36,Saint Macaire,rosé,1924,2,409,fancy-dolcetto,1928,36,2
+37,Chardonnay,rosé,1927,2,24,big-barbaresco,1934,37,3
+37,Chardonnay,rosé,1927,2,48,relaxed-lambrusco,1934,37,1
+37,Chardonnay,rosé,1927,2,296,coffee-dolcetto,1934,37,2
+37,Chardonnay,rosé,1927,2,328,ancient-auslese,1934,37,3
+37,Chardonnay,rosé,1927,2,441,bold-barbaresco,1934,37,3
+12

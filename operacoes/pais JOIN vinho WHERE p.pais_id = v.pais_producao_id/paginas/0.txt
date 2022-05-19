@@ -1,0 +1,13 @@
+0,Argentina,ARG,1,roaring-claret,2020,41,0
+0,Argentina,ARG,3,bright-bardolino,1994,15,0
+0,Argentina,ARG,11,shy-sauvignon,1974,31,0
+0,Argentina,ARG,12,parallel-chardonnay,2014,8,0
+0,Argentina,ARG,15,vibrant-muscat,1970,2,0
+0,Argentina,ARG,17,radiant-champagne,1950,23,0
+0,Argentina,ARG,19,green-mead,1934,32,0
+0,Argentina,ARG,33,iron-marsanne,1966,67,0
+0,Argentina,ARG,47,canary-champagne,1996,29,0
+0,Argentina,ARG,55,customer-zinfandel,1996,29,0
+0,Argentina,ARG,57,buoyant-beaujolais,1936,63,0
+0,Argentina,ARG,61,cheerful-burgundy,1988,18,0
+12

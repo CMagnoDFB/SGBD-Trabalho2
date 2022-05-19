@@ -1,0 +1,13 @@
+1,Portugal,PRT,33,Sultana,rosé,1986,1
+1,Portugal,PRT,34,Chardonnay,rosé,1954,1
+1,Portugal,PRT,35,Chardonnay,tinto,1941,1
+1,Portugal,PRT,44,Riesling,tinto,1939,1
+1,Portugal,PRT,53,Sultana,rosé,1979,1
+1,Portugal,PRT,66,Flame Seedless,rosé,1954,1
+1,Portugal,PRT,73,Sultana,rosé,1915,1
+2,Estados Unidos,EUA,1,Muscat Hamburg,tinto,1939,2
+2,Estados Unidos,EUA,7,Sauvignon Blanc,branco,1920,2
+2,Estados Unidos,EUA,12,Muscat Hamburg,rosé,1913,2
+2,Estados Unidos,EUA,21,Cabernet Sauvignon,tinto,1930,2
+2,Estados Unidos,EUA,23,Viognier,tinto,1950,2
+12

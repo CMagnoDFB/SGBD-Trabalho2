@@ -1,0 +1,13 @@
+3,Argentina,ARG,253,nice-cabernet,1952,48,3
+3,Argentina,ARG,254,plain-shiraz,1996,11,3
+3,Argentina,ARG,256,optimal-albariño,1988,18,3
+3,Argentina,ARG,258,young-muscat,1984,70,3
+3,Argentina,ARG,275,bounded-merlot,2002,13,3
+3,Argentina,ARG,276,optical-blanc,1920,4,3
+3,Argentina,ARG,285,dry-riesling,1912,45,3
+3,Argentina,ARG,287,product-rosé,1958,39,3
+3,Argentina,ARG,288,chief-sherry,2020,41,3
+3,Argentina,ARG,293,formal-prosecco,1920,4,3
+3,Argentina,ARG,297,isochoric-claret,1920,7,3
+3,Argentina,ARG,308,perpendicular-mead,1988,53,3
+12

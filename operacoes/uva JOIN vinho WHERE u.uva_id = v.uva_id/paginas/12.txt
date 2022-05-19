@@ -1,0 +1,13 @@
+20,Ruby Seedless,branco,1957,3,484,vivid-madeira,1964,20,3
+20,Ruby Seedless,branco,1957,3,489,mild-chinon,1964,20,0
+21,Cabernet Sauvignon,tinto,1930,2,46,collinear-claret,1930,21,3
+21,Cabernet Sauvignon,tinto,1930,2,124,simple-bardolino,1930,21,2
+21,Cabernet Sauvignon,tinto,1930,2,168,oily-lambrusco,1930,21,0
+21,Cabernet Sauvignon,tinto,1930,2,488,leather-barbaresco,1930,21,1
+22,Chardonnay,tinto,1988,3,89,champagne-sauvignon,1996,22,2
+22,Chardonnay,tinto,1988,3,154,cream-cabernet,1996,22,0
+22,Chardonnay,tinto,1988,3,183,teal-bardolino,1996,22,1
+22,Chardonnay,tinto,1988,3,240,fixed-sauvignon,1996,22,0
+22,Chardonnay,tinto,1988,3,246,humane-rosé,1996,22,1
+22,Chardonnay,tinto,1988,3,267,hot-grappa,1996,22,0
+12

@@ -1,0 +1,13 @@
+32,Sauvignon Blanc,rosé,1932,3,210,coplanar-blanc,1934,32,0
+32,Sauvignon Blanc,rosé,1932,3,327,soluble-pinot,1934,32,0
+32,Sauvignon Blanc,rosé,1932,3,374,primary-barbaresco,1934,32,3
+32,Sauvignon Blanc,rosé,1932,3,388,perfect-chianti,1934,32,2
+32,Sauvignon Blanc,rosé,1932,3,398,strong-muscat,1934,32,0
+33,Sultana,rosé,1986,1,160,spicy-barbaresco,1992,33,3
+33,Sultana,rosé,1986,1,186,chalky-champagne,1992,33,0
+33,Sultana,rosé,1986,1,224,central-madeira,1992,33,0
+33,Sultana,rosé,1986,1,421,diachronic-port,1992,33,0
+33,Sultana,rosé,1986,1,425,steel-banylus,1992,33,2
+33,Sultana,rosé,1986,1,461,flush-pinot,1992,33,0
+33,Sultana,rosé,1986,1,495,feasible-marsanne,1992,33,3
+12

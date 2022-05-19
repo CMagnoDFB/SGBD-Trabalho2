@@ -1,0 +1,13 @@
+39,Flame Seedless,rosé,1954,3,287,product-rosé,1958,39,3
+40,Purple Cornichon,tinto,1919,0,31,internal-bardolino,1928,40,3
+40,Purple Cornichon,tinto,1919,0,368,pizzicato-riesling,1928,40,3
+41,Saint Macaire,branco,2015,0,1,roaring-claret,2020,41,0
+41,Saint Macaire,branco,2015,0,99,investor-riesling,2020,41,3
+41,Saint Macaire,branco,2015,0,129,curious-pinot,2020,41,3
+41,Saint Macaire,branco,2015,0,272,metal-moscato,2020,41,1
+41,Saint Macaire,branco,2015,0,288,chief-sherry,2020,41,3
+41,Saint Macaire,branco,2015,0,486,friendly-merlot,2020,41,1
+42,Viognier,rosé,1989,3,96,cool-chablis,1998,42,3
+42,Viognier,rosé,1989,3,206,bent-champagne,1998,42,2
+42,Viognier,rosé,1989,3,213,roaring-cabernet,1998,42,3
+12

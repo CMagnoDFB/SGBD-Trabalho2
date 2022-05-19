@@ -1,0 +1,13 @@
+57,Cabernet Sauvignon,tinto,1972,3,125,radiant-chablis,1974,57,2
+57,Cabernet Sauvignon,tinto,1972,3,126,hoary-sauvignon,1974,57,2
+57,Cabernet Sauvignon,tinto,1972,3,151,absolute-rosé,1974,57,3
+57,Cabernet Sauvignon,tinto,1972,3,158,sparse-chianti,1974,57,1
+57,Cabernet Sauvignon,tinto,1972,3,190,relative-auslese,1974,57,1
+57,Cabernet Sauvignon,tinto,1972,3,227,kind-rosé,1974,57,1
+57,Cabernet Sauvignon,tinto,1972,3,273,crabby-shiraz,1974,57,1
+57,Cabernet Sauvignon,tinto,1972,3,282,planar-chianti,1974,57,2
+57,Cabernet Sauvignon,tinto,1972,3,316,average-chardonnay,1974,57,1
+57,Cabernet Sauvignon,tinto,1972,3,330,quiet-champagne,1974,57,0
+57,Cabernet Sauvignon,tinto,1972,3,364,best-bardolino,1974,57,1
+58,Flame Seedless,rosé,1992,3,45,fast-lambrusco,1994,58,2
+12

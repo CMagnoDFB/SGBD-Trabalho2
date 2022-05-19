@@ -1,0 +1,13 @@
+3,Argentina,ARG,151,absolute-rosé,1974,57,3
+3,Argentina,ARG,155,champagne-banylus,2014,8,3
+3,Argentina,ARG,160,spicy-barbaresco,1992,33,3
+3,Argentina,ARG,162,recursive-riesling,1978,0,3
+3,Argentina,ARG,164,stale-lambrusco,1964,60,3
+3,Argentina,ARG,166,acute-beaujolais,1920,62,3
+3,Argentina,ARG,171,maroon-banylus,1994,15,3
+3,Argentina,ARG,177,sleek-noir,1988,61,3
+3,Argentina,ARG,184,parallel-blanc,1924,9,3
+3,Argentina,ARG,189,decidable-prosecco,1988,18,3
+3,Argentina,ARG,192,creative-arneis,1968,68,3
+3,Argentina,ARG,194,laminated-chinon,1994,15,3
+12

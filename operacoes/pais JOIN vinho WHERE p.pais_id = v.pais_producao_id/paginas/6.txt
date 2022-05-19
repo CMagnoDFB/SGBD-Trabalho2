@@ -1,0 +1,13 @@
+0,Argentina,ARG,301,fundamental-mead,1948,44,0
+0,Argentina,ARG,302,hot-blanc,1956,3,0
+0,Argentina,ARG,303,adiabatic-banylus,1942,35,0
+0,Argentina,ARG,306,wooden-moscato,1988,18,0
+0,Argentina,ARG,312,vain-grappa,1916,38,0
+0,Argentina,ARG,315,simple-chardonnay,1916,12,0
+0,Argentina,ARG,318,asymptotic-amarone,2018,71,0
+0,Argentina,ARG,322,isometric-sauvignon,1970,2,0
+0,Argentina,ARG,327,soluble-pinot,1934,32,0
+0,Argentina,ARG,329,ambitious-mead,1916,5,0
+0,Argentina,ARG,330,quiet-champagne,1974,57,0
+0,Argentina,ARG,334,resolving-barbaresco,1948,44,0
+12

@@ -1,0 +1,13 @@
+7,Sauvignon Blanc,branco,1920,2,112,freezing-prosecco,1920,7,3
+7,Sauvignon Blanc,branco,1920,2,134,faint-barbaresco,1920,7,3
+7,Sauvignon Blanc,branco,1920,2,221,intense-chardonnay,1920,7,3
+7,Sauvignon Blanc,branco,1920,2,297,isochoric-claret,1920,7,3
+7,Sauvignon Blanc,branco,1920,2,361,champagne-rosé,1920,7,0
+7,Sauvignon Blanc,branco,1920,2,363,blaring-moscato,1920,7,1
+7,Sauvignon Blanc,branco,1920,2,471,exothermic-shiraz,1920,7,3
+8,Sauvignon Blanc,branco,2012,0,12,parallel-chardonnay,2014,8,0
+8,Sauvignon Blanc,branco,2012,0,95,absolute-sauvignon,2014,8,1
+8,Sauvignon Blanc,branco,2012,0,155,champagne-banylus,2014,8,3
+8,Sauvignon Blanc,branco,2012,0,257,indulgent-dolcetto,2014,8,1
+8,Sauvignon Blanc,branco,2012,0,280,molten-riesling,2014,8,1
+12

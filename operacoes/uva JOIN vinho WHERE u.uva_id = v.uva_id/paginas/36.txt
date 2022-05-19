@@ -1,0 +1,13 @@
+63,Muscat Hamburg,tinto,1928,3,165,magnetic-chinon,1936,63,0
+63,Muscat Hamburg,tinto,1928,3,236,teal-mead,1936,63,3
+63,Muscat Hamburg,tinto,1928,3,369,sunny-claret,1936,63,3
+63,Muscat Hamburg,tinto,1928,3,442,shiny-chianti,1936,63,2
+64,Saint Macaire,tinto,1911,3,111,latent-claret,1912,64,2
+64,Saint Macaire,tinto,1911,3,209,violent-sherry,1912,64,0
+64,Saint Macaire,tinto,1911,3,298,sensitive-lambrusco,1912,64,0
+64,Saint Macaire,tinto,1911,3,389,freezing-port,1912,64,0
+64,Saint Macaire,tinto,1911,3,419,olive-albariño,1912,64,3
+64,Saint Macaire,tinto,1911,3,430,randomized-grappa,1912,64,1
+65,Merlot,branco,1964,2,27,threaded-chablis,1968,65,1
+65,Merlot,branco,1964,2,90,inflammable-beaujolais,1968,65,1
+12

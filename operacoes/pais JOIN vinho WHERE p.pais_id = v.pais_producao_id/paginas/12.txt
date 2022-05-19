@@ -1,0 +1,13 @@
+1,Portugal,PRT,65,elaborate-pinot,1952,48,1
+1,Portugal,PRT,66,inverse-chinon,1980,16,1
+1,Portugal,PRT,74,annoying-rosé,1958,52,1
+1,Portugal,PRT,78,crunchy-chablis,1934,32,1
+1,Portugal,PRT,82,intricate-lambrusco,1988,53,1
+1,Portugal,PRT,83,balanced-amarone,1974,57,1
+1,Portugal,PRT,90,inflammable-beaujolais,1968,65,1
+1,Portugal,PRT,93,brave-riesling,1980,16,1
+1,Portugal,PRT,95,absolute-sauvignon,2014,8,1
+1,Portugal,PRT,97,merciless-merlot,1916,47,1
+1,Portugal,PRT,102,camel-madeira,1978,24,1
+1,Portugal,PRT,107,cross-auslese,1910,56,1
+12

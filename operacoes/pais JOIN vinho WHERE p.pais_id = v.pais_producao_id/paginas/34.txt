@@ -1,0 +1,13 @@
+3,Argentina,ARG,96,cool-chablis,1998,42,3
+3,Argentina,ARG,99,investor-riesling,2020,41,3
+3,Argentina,ARG,112,freezing-prosecco,1920,7,3
+3,Argentina,ARG,113,adiabatic-sauvignon,1994,15,3
+3,Argentina,ARG,120,violent-muscat,1978,24,3
+3,Argentina,ARG,127,concrete-beaujolais,1952,48,3
+3,Argentina,ARG,129,curious-pinot,2020,41,3
+3,Argentina,ARG,130,radioactive-banylus,2008,69,3
+3,Argentina,ARG,134,faint-barbaresco,1920,7,3
+3,Argentina,ARG,135,kinetic-burgundy,1958,52,3
+3,Argentina,ARG,137,adaptive-champagne,1920,4,3
+3,Argentina,ARG,143,nippy-sherry,2014,51,3
+12
