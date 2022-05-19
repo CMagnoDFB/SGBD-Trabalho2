@@ -60,7 +60,7 @@ public:
 
             ofstream page_file(this->path + to_string(pageName) + ".txt");
 
-            while (count < 13 && getline(csv_file, line))
+            while (count < 12 && getline(csv_file, line))
             {
                 page_file << line << '\n';
                 count++;
@@ -68,6 +68,7 @@ public:
             if (count > 0)
             {
                 pageName++;
+                page_file << to_string(count);
                 page_file.close();
                 count = 0;
             }
