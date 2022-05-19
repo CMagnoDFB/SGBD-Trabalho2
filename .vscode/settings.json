@@ -9,7 +9,9 @@
         "initializer_list": "cpp",
         "iosfwd": "cpp",
         "*.tcc": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "xstring": "cpp",
+        "bitset": "cpp"
     },
     "C_Cpp.errorSquiggles": "Enabled"
 }

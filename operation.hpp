@@ -11,6 +11,8 @@
 #include <filesystem>
 #include <map>
 
+#define PAGE_SIZE 12
+
 using namespace std;
 
 class Tabela
@@ -19,20 +21,22 @@ public:
     Tabela() {}
     Tabela(string csv_name)
     {
-        size_t d = csv_name.size() - 4;
-        nome = csv_name.substr(0, d);
+        nome = split(csv_name, '.')[0];
         path = "./tabelas/" + nome + "/";
-        std::filesystem::create_directories(path);
+        path_pags = path + "/paginas/";
+        csv = csv_name;
+        std::filesystem::create_directories(path + "/paginas/");
     }
     string nome;
     string path;
+    string path_pags;
+    string csv;
     vector<string> pags;
     int qtd_pags = 0;
     map<string, int> nome_para_indice;
-
     void carregarDados()
     {
-        ifstream csv_file(this->nome + ".csv");
+        ifstream csv_file(csv);
 
         // Carregando a linha 1 do csv no map
         string line;
@@ -50,9 +54,9 @@ public:
         while (stop == false)
         {
 
-            ofstream page_file(this->path + to_string(pageName) + ".txt");
+            ofstream page_file(path_pags + to_string(pageName) + ".txt");
 
-            while (count < 12 && getline(csv_file, line))
+            while (count < PAGE_SIZE && getline(csv_file, line))
             {
                 page_file << line << '\n';
                 count++;
@@ -75,7 +79,7 @@ public:
     }
     void salvar_tabela()
     {
-        ofstream tabela_file((path + nome + ".tabela.txt").c_str());
+        ofstream tabela_file((path + nome + "tabela.txt").c_str());
         for (int i = 0; i < this->pags.size(); i++)
         {
             tabela_file << this->pags[i];
@@ -109,7 +113,7 @@ public:
             doisPs = mappings[i].find(":");
             key = mappings[i].substr(0, doisPs + 1);
             value = mappings[i].substr(doisPs + 1, mappings[i].size() - 1 - doisPs);
-            this->nome_para_indice.insert(pair<string, int>(key, stoi(value)));
+            this->nome_para_indice.insert(make_pair(key, stoi(value)));
         }
     }
 
@@ -124,10 +128,9 @@ public:
 
         cout << this->qtd_pags << endl;
 
-        map<string, int>::iterator itr;
         cout << "\nThe nome_para_indice map is : \n";
         cout << "\tKEY\tELEMENT\n";
-        for (itr = this->nome_para_indice.begin(); itr != this->nome_para_indice.end(); ++itr)
+        for (auto itr = this->nome_para_indice.begin(); itr != this->nome_para_indice.end(); ++itr)
         {
             cout << '\t' << itr->first << '\t' << itr->second
                  << '\n';
