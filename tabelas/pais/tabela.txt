@@ -1,3 +1,0 @@
-0
-1
-nome:1,pais_id:0,sigla:2

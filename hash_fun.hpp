@@ -10,7 +10,13 @@
 #include <algorithm>
 #include <filesystem>
 
+#define PAGE_SIZE 12
 #define BUCKET_MAX_SIZE 200
+#define OP_INC 0
+#define OP_REM 1
+#define OP_BUS 2
+
+int numIOs = 0;
 
 using namespace std;
 // Faz split da string por espaços
@@ -34,7 +40,7 @@ vector<string> getline_vector(istream &x, char delimiter = ',')
 // Essa funcao recebe a chave, passa na funcao hash e devolve os ultimos prof_global bits
 string getHash(int chave, int prof_global)
 {
-    int res = chave % (1 << prof_global);
+    int res = chave;
     string raw = bitset<32>(res).to_string();
     string fin = raw.substr(raw.size() - prof_global);
     return fin;
@@ -119,27 +125,17 @@ public:
         out << "P:/" << prof_global << std::endl;
     }
     // Funcao que lida com operacoes
-    void operar(string op, string chave)
+    void operar(int op, string chave)
     {
         string bucketHash;
         vector<registro> registros;
         vector<string> idsToAdd;
         vector<string> idsRemoved;
         Bucket bucket;
-        int opN;
-        if (op == "INC")
-            opN = 1;
-        else if (op == "REM")
-            opN = 2;
-        else if (op == "BUS")
-            opN = 3;
-        else
-            opN = 4;
-
-        switch (opN)
+        switch (op)
         {
         // INC
-        case 1:
+        case OP_INC:
             idsToAdd = Diretorio::getFromCSV(nome, chave, indice_col);
             //  Para cada ID, fazer a operação de inclusão (aqui o ano é o mesmo)
             bucketHash = getBucketHash(chave);
@@ -156,14 +152,14 @@ public:
             out << "INC:" << chave << "/" << idsToAdd.size() << "," << prof_global << "," << bucket.prof_local << endl;
             break;
         // REM
-        case 2:
+        case OP_REM:
             bucketHash = getBucketHash(chave);
             bucket = carregar_bucket(bucketHash);
             idsRemoved = removerChave(bucketHash, chave);
             out << "REM:" << chave << "/" << idsRemoved.size() << "," << prof_global << "," << bucket.prof_local << endl;
             break;
         // BUS
-        case 3:
+        case OP_BUS:
             bucketHash = getBucketHash(chave);
             registros = buscarChave(bucketHash, chave);
             out << "BUS:" << chave << "/" << registros.size() << endl;
@@ -246,6 +242,7 @@ public:
         for (auto registro : bucket.regs)
             if (registro.chave == chave)
                 registros.emplace_back(registro);
+        numIOs += 1 + (bucket.len - 1) / PAGE_SIZE;
         return registros;
     }
     // Essa funcao remove os registros com chave igual à da pesquisa e retorna os ids removidos
@@ -289,6 +286,7 @@ public:
         if (diretorio.good())
         {
             diretorio.close();
+            carregar_diretorio();
             return;
         }
         salvar_diretorio();

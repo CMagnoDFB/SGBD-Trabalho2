@@ -1,5 +1,4 @@
 #include <new>
-#include "hash_fun.hpp"
 #include "operation.hpp"
 
 using namespace std;
@@ -13,11 +12,16 @@ int main(int argc, char **argv)
     Tabela uva{"uva.csv"};
     Tabela pais{"pais.csv"};
 
-    // vinho.carregarDados(); // le os dados do csv e add na estrutura da tabela, caso necessario
-    uva.carregarDados();
+    uva.carregarDados(); // le os dados do csv e add na estrutura da tabela, caso necessario
     pais.carregarDados();
     vinho.carregarDados();
-    Operador op{vinho, uva, "pais_producao_id", "tipo"};
+    Operador op{uva, pais, "pais_origem_id", "pais_id"};
+    //Operador op{uva, vinho, "uva_id", "uva_id"};
+    //Operador op{vinho, pais, "pais_producao_id", "pais_id"};
     op.executar();
+    cout << "#Pags: " << op.numPagsGeradas();     // Retorna a quantidade de paginas geradas pela operacao
+    cout << "\n#IOss: " << op.numIOExecutados();  // Retorna a quantidade de IOs geradas pela operacao
+    cout << "\n#Tups: " << op.numTuplasGeradas(); // Retorna a quantidade de tuplas geradas pela operacao
+    op.salvarTuplasGeradas("juncao.csv"); // Retorna as tuplas geradas pela operacao e salva em um csv
     return 0;
 }

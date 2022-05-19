@@ -1,17 +1,5 @@
-#include <iostream>
-#include <string>
-#include <stdlib.h>
-#include <cstdio>
-#include <bitset>
-#include <vector>
-#include <math.h>
-#include <fstream>
-#include <sstream>
-#include <algorithm>
-#include <filesystem>
+#include "hash_fun.hpp"
 #include <map>
-
-#define PAGE_SIZE 12
 
 using namespace std;
 
@@ -31,8 +19,11 @@ public:
     string path;
     string path_pags;
     string csv;
+    string colunas;
     vector<string> pags;
     int qtd_pags = 0;
+    int indice_col;
+    string col_name;
     map<string, int> nome_para_indice;
     void carregarDados()
     {
@@ -41,6 +32,7 @@ public:
         // Carregando a linha 1 do csv no map
         string line;
         getline(csv_file, line);
+        colunas = line;
         vector<string> headerVec = split(line, ',');
         for (int i = 0; i < headerVec.size(); i++)
         {
@@ -144,12 +136,13 @@ class Operador
 public:
     Operador(Tabela tabela_1, Tabela tabela_2, string col_tab_1, string col_tab_2)
     {
-        int tab_1_pos = tabela_1.nome_para_indice[col_tab_1];
-        int tab_2_pos = tabela_2.nome_para_indice[col_tab_2];
-
+        std::filesystem::remove_all(path);
+        std::filesystem::create_directories(path_pags);
+        tabela_1.indice_col = tabela_1.nome_para_indice[col_tab_1];
+        tabela_2.indice_col = tabela_2.nome_para_indice[col_tab_2];
         // Checando se existe indice pra alguma coluna e definindo relação externa e interna:
-        const auto path1 = tabela_1.path + "indice/" + to_string(tab_1_pos);
-        const auto path2 = tabela_2.path + "indice/" + to_string(tab_2_pos);
+        const auto path1 = tabela_1.path + "indice/" + to_string(tabela_1.indice_col);
+        const auto path2 = tabela_2.path + "indice/" + to_string(tabela_2.indice_col);
         if (std::filesystem::is_directory(path1))
         {
             this->interna = tabela_1;
@@ -177,23 +170,65 @@ public:
     Tabela externa;
     Tabela interna;
     bool viabilidade;
-
+    string path = "operacao/";
+    string path_pags = "operacao/paginas/";
+    int paginas_geradas = 0;
+    int tuplas_geradas = 0;
+    int numPagsGeradas()
+    {
+        return paginas_geradas;
+    }
+    int numIOExecutados()
+    {
+        return numIOs;
+    }
+    int numTuplasGeradas()
+    {
+        return tuplas_geradas;
+    }
+    void salvarTuplasGeradas(string csv_nome)
+    {
+        ofstream csv(csv_nome);
+        csv << externa.colunas << "," << interna.colunas << '\n';
+        ifstream operacao(path + "tabela.txt");
+        auto paginas = getline_vector(operacao);
+        operacao.close();
+        for (int i = 0; i < paginas.size(); i++)
+        {
+            string pag_name = paginas[i];
+            ifstream pag_file((path_pags + pag_name + ".txt").c_str());
+            int tuples_amount = count(istreambuf_iterator<char>(pag_file), istreambuf_iterator<char>(), '\n');
+            pag_file.clear();
+            pag_file.seekg(0);
+            for (int j = 0; j < tuples_amount - 1; j++)
+            {
+                string line;
+                getline(pag_file, line);
+                csv << line << '\n';
+            }
+            pag_file.close();
+        }
+        csv.close();
+    }
     void executar()
     {
-        string pag_name;
-        string line;
+        string pag_name, chave;
+        string tuple_line, tuple2_line;
         int tuples_amount;
         vector<string> tuple_fields;
         // Loop externo - vamos passar de página em página da tabela recuperando uma tupla de cada vez
         int n = this->externa.qtd_pags;
-
+        Diretorio dir(interna.nome, "", interna.indice_col);
+        ofstream pag_out_file;
+        int pag_out_id = -1, pag_len = PAGE_SIZE;
+        numIOs++;
         for (int i = 0; i < n; i++)
         {
             // Pegando o nome da página
             pag_name = this->externa.pags[i];
             // Abrindo página
-            ifstream pag_file((this->externa.path_pags + to_string(i) + ".txt").c_str());
-
+            ifstream pag_file((this->externa.path_pags + pag_name + ".txt").c_str());
+            numIOs++;
             // Descobrindo número de tuplas:
             tuples_amount = count(istreambuf_iterator<char>(pag_file), istreambuf_iterator<char>(), '\n');
             pag_file.clear();
@@ -202,10 +237,65 @@ public:
             for (int j = 0; j < tuples_amount; j++)
             {
                 // Este vector contem os campos da tuplas
-                tuple_fields = getline_vector(pag_file);
+                getline(pag_file, tuple_line);
+                tuple_fields = split(tuple_line);
+                // Chave de busca
+                chave = tuple_fields[externa.indice_col];
+                // Busca essa chave nas páginas do bucket
+                vector<registro> registros = dir.buscarChave(dir.getBucketHash(chave), chave);
+                for (int k = 0; k < registros.size(); k++)
+                {
+                    int reg_id = stoi(registros[k].id);
+                    int pag_id = reg_id / PAGE_SIZE;
+                    int reg_pos = reg_id - pag_id * PAGE_SIZE - 1;
+                    // Abrindo página da relação interna para adicionar os outros atributos
+                    ifstream pag2_file((this->interna.path_pags + to_string(pag_id) + ".txt").c_str());
+                    numIOs++;
+                    bool encontrou = false;
+                    while (!encontrou && getline(pag2_file, tuple2_line))
+                    {
+                        vector<string> tuple2 = split(tuple2_line);
+                        if (tuple2[0] == registros[k].id)
+                        {
+                            encontrou = true;
+                            pag2_file.close();
+                        }
+                    }
+                    if (encontrou)
+                    {
+                        pag2_file.close();
+                        if (pag_len == PAGE_SIZE)
+                        {
+                            if (pag_out_id > -1)
+                            {
+                                tuplas_geradas += pag_len;
+                                pag_out_file << pag_len << '\n';
+                                pag_out_file.close();
+                            }
+                            pag_len = 0;
+                            pag_out_id++;
+                            pag_out_file.open(this->path_pags + to_string(pag_out_id) + ".txt");
+                            numIOs++;
+                        }
+                        pag_out_file << tuple_line << "," << tuple2_line << '\n';
+                        pag_len++;
+                    }
+                }
             }
-
             pag_file.close();
         }
+        tuplas_geradas += pag_len;
+        pag_out_file << pag_len << '\n';
+        pag_out_file.close();
+        paginas_geradas = pag_out_id + 1;
+        ofstream op_tabela(path + "tabela.txt");
+        op_tabela << "0";
+        for (int i = 1; i < paginas_geradas; i++)
+        {
+            op_tabela << "," << i;
+        }
+        op_tabela << '\n' << paginas_geradas << '\n';
+        op_tabela << externa.colunas << "," << interna.colunas << '\n';
+        op_tabela.close();
     }
 };
