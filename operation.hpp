@@ -253,43 +253,57 @@ public:
                 // Chave de busca
                 chave = tuple_fields[indice_col_ext];
                 // Busca essa chave nas páginas do bucket
-                vector<registro> registros = dir.buscarChave(dir.getBucketHash(chave), chave);
-                for (int k = 0; k < registros.size(); k++)
+                string bucketHash = dir.getBucketHash(chave);
+                int pagina_bucket = 0;
+                // Abrindo uma página do bucket do Índice
+                vector<registro> registros = dir.carregar_bucket_pagina(bucketHash, pagina_bucket++);
+                while (registros.size())
                 {
-                    int reg_id = stoi(registros[k].id);
-                    int pag_id = reg_id / PAGE_SIZE;
-                    // Abrindo página da relação interna para adicionar os outros atributos
-                    ifstream pag2_file((this->interna.path_pags + to_string(pag_id) + ".txt").c_str());
-                    numIOs++;
-                    bool encontrou = false;
-                    while (!encontrou && getline(pag2_file, tuple2_line))
+                    for (int k = 0; k < registros.size(); k++)
                     {
-                        vector<string> tuple2 = split(tuple2_line);
-                        if (tuple2[0] == registros[k].id)
+                        if (registros[k].chave != chave)
+                            continue;
+                        int reg_id = stoi(registros[k].id);
+                        int pag_id = reg_id / PAGE_SIZE;
+                        // Abrindo página da relação interna para adicionar os outros atributos
+                        ifstream pag2_file((this->interna.path_pags + to_string(pag_id) + ".txt").c_str());
+                        numIOs++;
+                        bool encontrou = false;
+                        while (!encontrou && getline(pag2_file, tuple2_line))
                         {
-                            encontrou = true;
-                            pag2_file.close();
-                        }
-                    }
-                    if (encontrou)
-                    {
-                        pag2_file.close();
-                        if (pag_len == PAGE_SIZE)
-                        {
-                            if (pag_out_id > -1)
+                            vector<string> tuple2 = split(tuple2_line);
+                            if (tuple2[0] == registros[k].id)
                             {
-                                tuplas_geradas += pag_len;
-                                pag_out_file << pag_len << '\n';
-                                pag_out_file.close();
+                                encontrou = true;
+                                pag2_file.close();
                             }
-                            pag_len = 0;
-                            pag_out_id++;
-                            pag_out_file.open(this->path_pags + to_string(pag_out_id) + ".txt");
-                            numIOs++;
                         }
-                        pag_out_file << tuple_line << "," << tuple2_line << '\n';
-                        pag_len++;
+                        if (encontrou)
+                        {
+                            pag2_file.close();
+                            if (pag_len == PAGE_SIZE)
+                            {
+                                if (pag_out_id > -1)
+                                {
+                                    tuplas_geradas += pag_len;
+                                    pag_out_file << pag_len << '\n';
+                                    pag_out_file.close();
+                                }
+                                pag_len = 0;
+                                pag_out_id++;
+                                pag_out_file.open(this->path_pags + to_string(pag_out_id) + ".txt");
+                                numIOs++;
+                            }
+                            pag_out_file << tuple_line << "," << tuple2_line << '\n';
+                            pag_len++;
+                        }
                     }
+                    // Abrindo outra página do bucket do índice
+                    if (registros.size() == PAGE_SIZE)
+                        registros = dir.carregar_bucket_pagina(bucketHash, pagina_bucket++);
+                    else // Se esta página não estiver cheia, então é a última do bucket
+                        registros.clear();
+
                 }
             }
             pag_file.close();
@@ -303,9 +317,7 @@ public:
         ofstream op_tabela(path + "tabela.txt");
         op_tabela << "0";
         for (int i = 1; i < paginas_geradas; i++)
-        {
             op_tabela << "," << i;
-        }
         op_tabela << '\n'
                   << paginas_geradas << '\n'
                   << externa.colunas << "," << interna.colunas << '\n';

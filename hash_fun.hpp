@@ -322,6 +322,20 @@ public:
         bucket_file << "end";
         bucket_file.close();
     }
+    vector<registro> carregar_bucket_pagina(string hash, int pagina)
+    {
+        Bucket bucket = carregar_bucket(hash);
+        vector<registro> registros;
+        int last_pos = (pagina + 1)*PAGE_SIZE;
+        if (last_pos > bucket.len)
+            last_pos = bucket.len;
+        for (int i = pagina*PAGE_SIZE; i < last_pos; i++)
+        {
+            registros.emplace_back(bucket.regs[i]);
+        }
+        numIOs++;
+        return registros;
+    }
     // Esta funcao recebe um nome de arquivo, le e retorna um objeto bucket correspondente
     Bucket carregar_bucket(string file_name)
     {
