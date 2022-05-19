@@ -25,7 +25,7 @@ public:
         path = "./tabelas/" + nome + "/";
         path_pags = path + "/paginas/";
         csv = csv_name;
-        std::filesystem::create_directories(path + "/paginas/");
+        std::filesystem::create_directories(path_pags);
     }
     string nome;
     string path;
@@ -79,7 +79,7 @@ public:
     }
     void salvar_tabela()
     {
-        ofstream tabela_file((path + nome + "tabela.txt").c_str());
+        ofstream tabela_file((path + "tabela.txt").c_str());
         for (int i = 0; i < this->pags.size(); i++)
         {
             tabela_file << this->pags[i];
@@ -99,7 +99,7 @@ public:
     }
     void carregar_tabela()
     {
-        ifstream tabela_file((path + nome + ".tabela.txt").c_str());
+        ifstream tabela_file((path + ".tabela.txt").c_str());
         string line;
 
         this->pags = getline_vector(tabela_file);
@@ -144,11 +144,8 @@ class Operador
 public:
     Operador(Tabela tabela_1, Tabela tabela_2, string col_tab_1, string col_tab_2)
     {
-        auto it1 = tabela_1.nome_para_indice.find(col_tab_1);
-        int tab_1_pos = it1->second;
-
-        auto it2 = tabela_2.nome_para_indice.find(col_tab_2);
-        int tab_2_pos = it2->second;
+        int tab_1_pos = tabela_1.nome_para_indice[col_tab_1];
+        int tab_2_pos = tabela_2.nome_para_indice[col_tab_2];
 
         // Checando se existe indice pra alguma coluna e definindo relação externa e interna:
         const auto path1 = tabela_1.path + "indice/" + to_string(tab_1_pos);
@@ -195,7 +192,7 @@ public:
             // Pegando o nome da página
             pag_name = this->externa.pags[i];
             // Abrindo página
-            ifstream pag_file((this->externa.path + to_string(i) + ".txt").c_str());
+            ifstream pag_file((this->externa.path_pags + to_string(i) + ".txt").c_str());
 
             // Descobrindo número de tuplas:
             tuples_amount = count(istreambuf_iterator<char>(pag_file), istreambuf_iterator<char>(), '\n');
