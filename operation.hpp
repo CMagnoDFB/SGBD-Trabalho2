@@ -68,6 +68,7 @@ public:
             if (count > 0)
             {
                 this->pags.emplace_back(to_string(pageName));
+                this->qtd_pags++;
                 pageName++;
                 page_file << to_string(count);
                 page_file.close();
