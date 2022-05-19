@@ -27,13 +27,13 @@ int main(int argc, char **argv)
     cout << "\n#IOss: " << op1.numIOExecutados();  // Retorna a quantidade de IOs geradas pela operacao
     cout << "\n#Tups: " << op1.numTuplasGeradas(); // Retorna a quantidade de tuplas geradas pela operacao
     op1.salvarTuplasGeradas("juncao.csv");         // Retorna as tuplas geradas pela operacao e salva em um csv
-    cout << "#Pags: " << op2.numPagsGeradas();     // Retorna a quantidade de paginas geradas pela operacao
+    cout << "\n#Pags: " << op2.numPagsGeradas();     // Retorna a quantidade de paginas geradas pela operacao
     cout << "\n#IOss: " << op2.numIOExecutados();  // Retorna a quantidade de IOs geradas pela operacao
     cout << "\n#Tups: " << op2.numTuplasGeradas(); // Retorna a quantidade de tuplas geradas pela operacao
-    op2.salvarTuplasGeradas("juncao.csv");         // Retorna as tuplas geradas pela operacao e salva em um csv
-    cout << "#Pags: " << op3.numPagsGeradas();     // Retorna a quantidade de paginas geradas pela operacao
+    op2.salvarTuplasGeradas("juncao2.csv");         // Retorna as tuplas geradas pela operacao e salva em um csv
+    cout << "\n#Pags: " << op3.numPagsGeradas();     // Retorna a quantidade de paginas geradas pela operacao
     cout << "\n#IOss: " << op3.numIOExecutados();  // Retorna a quantidade de IOs geradas pela operacao
     cout << "\n#Tups: " << op3.numTuplasGeradas(); // Retorna a quantidade de tuplas geradas pela operacao
-    op3.salvarTuplasGeradas("juncao.csv");         // Retorna as tuplas geradas pela operacao e salva em um csv
+    op3.salvarTuplasGeradas("juncao3.csv");         // Retorna as tuplas geradas pela operacao e salva em um csv
     return 0;
 }

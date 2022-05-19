@@ -22,8 +22,6 @@ public:
     string colunas;
     vector<string> pags;
     int qtd_pags = 0;
-    int indice_col;
-    string col_name;
     map<string, int> nome_para_indice;
     void carregarDados()
     {
@@ -136,12 +134,11 @@ class Operador
 public:
     Operador(Tabela tabela_1, Tabela tabela_2, string col_tab_1, string col_tab_2)
     {
-
-        tabela_1.indice_col = tabela_1.nome_para_indice[col_tab_1];
-        tabela_2.indice_col = tabela_2.nome_para_indice[col_tab_2];
+        int indice_col_1 = tabela_1.nome_para_indice[col_tab_1];
+        int indice_col_2 = tabela_2.nome_para_indice[col_tab_2];
         // Checando se existe indice pra alguma coluna e definindo relação externa e interna:
-        const auto path1 = tabela_1.path + "indice/" + to_string(tabela_1.indice_col);
-        const auto path2 = tabela_2.path + "indice/" + to_string(tabela_2.indice_col);
+        const auto path1 = tabela_1.path + "indice/" + to_string(indice_col_1);
+        const auto path2 = tabela_2.path + "indice/" + to_string(indice_col_2);
         if (std::filesystem::is_directory(path1))
         {
             this->interna = tabela_1;
@@ -160,15 +157,16 @@ public:
         }
         else
         {
-            cout << "Não há índices em nenhum dos atributos escolhidos" << endl;
+            // cout << "Não há índices em nenhum dos atributos escolhidos" << endl;
             this->viabilidade = false;
         }
+        /*
         cout << "Viabilidade da operação = " << viabilidade << endl;
         if (viabilidade)
         {
             cout << "Relação externa é " << externa.nome << endl;
             cout << "Relação interna é " << interna.nome << endl;
-        }
+        }*/
 
         this->path = "operacoes/" + externa.nome + " JOIN " + interna.nome + " WHERE " + externa.nome.at(0) + "." + col_tab_ext + " = " + interna.nome.at(0) + "." + col_tab_int + "/";
         this->path_pags = path + "paginas/";
@@ -182,6 +180,7 @@ public:
     string path_pags;
     string col_tab_int, col_tab_ext;
     int paginas_geradas = 0;
+    int numero_ios = 0;
     int tuplas_geradas = 0;
     int numPagsGeradas()
     {
@@ -189,7 +188,7 @@ public:
     }
     int numIOExecutados()
     {
-        return numIOs;
+        return numero_ios;
     }
     int numTuplasGeradas()
     {
@@ -197,7 +196,7 @@ public:
     }
     void salvarTuplasGeradas(string csv_nome)
     {
-        ofstream csv(this->externa.nome + " " + this->interna.nome + csv_nome);
+        ofstream csv(csv_nome);
         csv << externa.colunas << "," << interna.colunas << '\n';
         ifstream operacao(path + "tabela.txt");
         auto paginas = getline_vector(operacao);
@@ -221,13 +220,16 @@ public:
     }
     void executar()
     {
+        numIOs = 0;
         string pag_name, chave;
         string tuple_line, tuple2_line;
         int tuples_amount;
         vector<string> tuple_fields;
         // Loop externo - vamos passar de página em página da tabela recuperando uma tupla de cada vez
-        int n = this->externa.qtd_pags;
-        Diretorio dir(interna.nome, "", interna.indice_col);
+        int n = externa.qtd_pags;
+        int indice_col_ext = externa.nome_para_indice[col_tab_ext];
+        int indice_col_int = interna.nome_para_indice[col_tab_int];
+        Diretorio dir(interna.nome, "", indice_col_int);
         ofstream pag_out_file;
         int pag_out_id = -1, pag_len = PAGE_SIZE;
         numIOs++;
@@ -249,14 +251,13 @@ public:
                 getline(pag_file, tuple_line);
                 tuple_fields = split(tuple_line);
                 // Chave de busca
-                chave = tuple_fields[externa.indice_col];
+                chave = tuple_fields[indice_col_ext];
                 // Busca essa chave nas páginas do bucket
                 vector<registro> registros = dir.buscarChave(dir.getBucketHash(chave), chave);
                 for (int k = 0; k < registros.size(); k++)
                 {
                     int reg_id = stoi(registros[k].id);
                     int pag_id = reg_id / PAGE_SIZE;
-                    int reg_pos = reg_id - pag_id * PAGE_SIZE - 1;
                     // Abrindo página da relação interna para adicionar os outros atributos
                     ifstream pag2_file((this->interna.path_pags + to_string(pag_id) + ".txt").c_str());
                     numIOs++;
@@ -293,6 +294,8 @@ public:
             }
             pag_file.close();
         }
+        if (pag_out_id == -1)
+            pag_len = 0;
         tuplas_geradas += pag_len;
         pag_out_file << pag_len << '\n';
         pag_out_file.close();
@@ -304,8 +307,9 @@ public:
             op_tabela << "," << i;
         }
         op_tabela << '\n'
-                  << paginas_geradas << '\n';
-        op_tabela << externa.colunas << "," << interna.colunas << '\n';
+                  << paginas_geradas << '\n'
+                  << externa.colunas << "," << interna.colunas << '\n';
         op_tabela.close();
+        numero_ios = numIOs;
     }
 };
