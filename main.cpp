@@ -18,6 +18,6 @@ int main(int argc, char **argv)
     pais.carregarDados();
     vinho.carregarDados();
     Operador op{vinho, uva, "pais_producao_id", "tipo"};
-
+    op.executar();
     return 0;
 }

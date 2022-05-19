@@ -27,7 +27,7 @@ public:
     string nome;
     string path;
     vector<string> pags;
-    int qtd_pags;
+    int qtd_pags = 0;
     map<string, int> nome_para_indice;
 
     void carregarDados()
@@ -177,4 +177,35 @@ public:
     Tabela externa;
     Tabela interna;
     bool viabilidade;
+
+    void executar()
+    {
+        string pag_name;
+        string line;
+        int tuples_amount;
+        vector<string> tuple_fields;
+        // Loop externo - vamos passar de página em página da tabela recuperando uma tupla de cada vez
+        int n = this->externa.qtd_pags;
+
+        for (int i = 0; i < n; i++)
+        {
+            // Pegando o nome da página
+            pag_name = this->externa.pags[i];
+            // Abrindo página
+            ifstream pag_file((this->externa.path + to_string(i) + ".txt").c_str());
+
+            // Descobrindo número de tuplas:
+            tuples_amount = count(istreambuf_iterator<char>(pag_file), istreambuf_iterator<char>(), '\n');
+            pag_file.clear();
+            pag_file.seekg(0);
+            // Agora vamos iterar sobre as tuplas da página:
+            for (int j = 0; j < tuples_amount; j++)
+            {
+                // Este vector contem os campos da tuplas
+                tuple_fields = getline_vector(pag_file);
+            }
+
+            pag_file.close();
+        }
+    }
 };
