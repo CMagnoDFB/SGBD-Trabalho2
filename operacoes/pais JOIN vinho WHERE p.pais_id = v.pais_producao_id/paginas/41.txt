@@ -1,9 +1,0 @@
-3,Argentina,ARG,468,forward-lambrusco,1928,54,3
-3,Argentina,ARG,471,exothermic-shiraz,1920,7,3
-3,Argentina,ARG,474,ternary-arneis,1970,55,3
-3,Argentina,ARG,478,unsorted-muscat,1958,26,3
-3,Argentina,ARG,484,vivid-madeira,1964,20,3
-3,Argentina,ARG,487,oriented-arneis,1964,60,3
-3,Argentina,ARG,494,beige-chablis,1912,45,3
-3,Argentina,ARG,495,feasible-marsanne,1992,33,3
-8

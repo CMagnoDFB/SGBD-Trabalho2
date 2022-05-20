@@ -1,3 +1,0 @@
-0,1,2,3,4,5,6
-7
-pais_id,nome,sigla,uva_id,nome,tipo,ano_colheita,pais_origem_id
