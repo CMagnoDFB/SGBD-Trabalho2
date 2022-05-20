@@ -16,8 +16,6 @@
 #define OP_REM 1
 #define OP_BUS 2
 
-int numIOs = 0;
-
 using namespace std;
 // Faz split da string por espaços
 vector<string> split(string str, char delimiter = ',')
@@ -247,7 +245,6 @@ public:
         for (auto registro : bucket.regs)
             if (registro.chave == chave)
                 registros.emplace_back(registro);
-        numIOs += 1 + (bucket.len - 1) / PAGE_SIZE;
         return registros;
     }
     // Essa funcao remove os registros com chave igual à da pesquisa e retorna os ids removidos
@@ -338,7 +335,6 @@ public:
         {
             registros.emplace_back(bucket.regs[i]);
         }
-        numIOs++;
         return registros;
     }
     // Esta funcao recebe um nome de arquivo, le e retorna um objeto bucket correspondente

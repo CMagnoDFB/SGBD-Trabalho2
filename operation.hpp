@@ -234,8 +234,8 @@ public:
     }
     void executar()
     {
-        numIOs = 0;
-         if (!viabilidade) return;
+        numero_ios = 0;
+        if (!viabilidade) return;
         string pag_name, chave;
         string tuple_line, tuple2_line;
         int tuples_amount;
@@ -247,14 +247,14 @@ public:
         Diretorio dir(interna.nome, "", indice_col_int);
         ofstream pag_out_file;
         int pag_out_id = -1, pag_len = PAGE_SIZE;
-        numIOs++;
+        numero_ios++;
         for (int i = 0; i < n; i++)
         {
             // Pegando o nome da página
             pag_name = this->externa.pags[i];
             // Abrindo página
             ifstream pag_file((this->externa.path_pags + pag_name + ".txt").c_str());
-            numIOs++;
+            numero_ios++;
             // Descobrindo número de tuplas:
             tuples_amount = count(istreambuf_iterator<char>(pag_file), istreambuf_iterator<char>(), '\n');
             pag_file.clear();
@@ -272,6 +272,7 @@ public:
                 int pagina_bucket = 0;
                 // Abrindo uma página do bucket do Índice
                 vector<registro> registros = dir.carregar_bucket_pagina(bucketHash, pagina_bucket++);
+                numero_ios++;
                 while (registros.size())
                 {
                     for (int k = 0; k < registros.size(); k++)
@@ -282,7 +283,7 @@ public:
                         int pag_id = reg_id / PAGE_SIZE;
                         // Abrindo página da relação interna para adicionar os outros atributos
                         ifstream pag2_file((this->interna.path_pags + to_string(pag_id) + ".txt").c_str());
-                        numIOs++;
+                        numero_ios++;
                         bool encontrou = false;
                         while (!encontrou && getline(pag2_file, tuple2_line))
                         {
@@ -307,7 +308,7 @@ public:
                                 pag_len = 0;
                                 pag_out_id++;
                                 pag_out_file.open(this->path_pags + to_string(pag_out_id) + ".txt");
-                                numIOs++;
+                                numero_ios++;
                             }
                             pag_out_file << tuple_line << "," << tuple2_line << '\n';
                             pag_len++;
@@ -315,7 +316,10 @@ public:
                     }
                     // Abrindo outra página do bucket do índice
                     if (registros.size() == PAGE_SIZE)
+                    {
                         registros = dir.carregar_bucket_pagina(bucketHash, pagina_bucket++);
+                        numero_ios++;
+                    }
                     else // Se esta página não estiver cheia, então é a última do bucket
                         registros.clear();
 
@@ -337,6 +341,5 @@ public:
                   << paginas_geradas << '\n'
                   << externa.colunas << "," << interna.colunas << '\n';
         op_tabela.close();
-        numero_ios = numIOs;
     }
 };
