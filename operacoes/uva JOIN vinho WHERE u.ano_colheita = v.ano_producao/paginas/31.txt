@@ -1,0 +1,13 @@
+67,Cabernet Sauvignon,rosé,1958,3,277,weary-albariño,1958,34,2
+67,Cabernet Sauvignon,rosé,1958,3,287,product-rosé,1958,39,3
+67,Cabernet Sauvignon,rosé,1958,3,291,affable-chianti,1958,26,0
+67,Cabernet Sauvignon,rosé,1958,3,313,miniature-moscato,1958,66,2
+67,Cabernet Sauvignon,rosé,1958,3,331,leather-lambrusco,1958,43,2
+67,Cabernet Sauvignon,rosé,1958,3,370,plain-sauvignon,1958,26,2
+67,Cabernet Sauvignon,rosé,1958,3,378,serious-amarone,1958,34,0
+67,Cabernet Sauvignon,rosé,1958,3,396,round-port,1958,26,0
+67,Cabernet Sauvignon,rosé,1958,3,406,juvenile-champagne,1958,52,0
+67,Cabernet Sauvignon,rosé,1958,3,408,basic-riesling,1958,52,1
+67,Cabernet Sauvignon,rosé,1958,3,463,sizzling-merlot,1958,52,2
+67,Cabernet Sauvignon,rosé,1958,3,476,finite-noir,1958,66,2
+12

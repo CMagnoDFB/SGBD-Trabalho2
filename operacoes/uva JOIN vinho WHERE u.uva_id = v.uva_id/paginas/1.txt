@@ -1,0 +1,13 @@
+1,Muscat Hamburg,tinto,1939,2,196,orthogonal-muscat,1948,1,2
+1,Muscat Hamburg,tinto,1939,2,219,coherent-chablis,1948,1,0
+2,Viognier,rosé,1965,0,15,vibrant-muscat,1970,2,0
+2,Viognier,rosé,1965,0,322,isometric-sauvignon,1970,2,0
+2,Viognier,rosé,1965,0,351,rowdy-grappa,1970,2,1
+2,Viognier,rosé,1965,0,405,maximum-cabernet,1970,2,0
+2,Viognier,rosé,1965,0,427,citron-shiraz,1970,2,0
+3,Riesling,branco,1953,1,62,smoggy-muscat,1956,3,0
+3,Riesling,branco,1953,1,193,either-madeira,1956,3,1
+3,Riesling,branco,1953,1,302,hot-blanc,1956,3,0
+3,Riesling,branco,1953,1,417,gentle-beaujolais,1956,3,0
+3,Riesling,branco,1953,1,454,nullary-chardonnay,1956,3,0
+12

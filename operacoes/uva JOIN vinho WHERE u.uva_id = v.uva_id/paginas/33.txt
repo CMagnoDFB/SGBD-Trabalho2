@@ -1,0 +1,13 @@
+58,Flame Seedless,rosé,1992,3,251,juvenile-moscato,1994,58,0
+58,Flame Seedless,rosé,1992,3,395,inventive-zinfandel,1994,58,2
+59,Chardonnay,tinto,1937,2,4,mild-sauvignon,1944,59,1
+59,Chardonnay,tinto,1937,2,75,staccato-rosé,1944,59,2
+59,Chardonnay,tinto,1937,2,105,bare-chardonnay,1944,59,0
+59,Chardonnay,tinto,1937,2,133,tense-sauvignon,1944,59,1
+59,Chardonnay,tinto,1937,2,136,coplanar-prosecco,1944,59,2
+59,Chardonnay,tinto,1937,2,365,future-marsanne,1944,59,0
+60,Chardonnay,rosé,1957,3,30,funny-barbaresco,1964,60,1
+60,Chardonnay,rosé,1957,3,59,gray-auslese,1964,60,1
+60,Chardonnay,rosé,1957,3,164,stale-lambrusco,1964,60,3
+60,Chardonnay,rosé,1957,3,204,rapid-grappa,1964,60,1
+12

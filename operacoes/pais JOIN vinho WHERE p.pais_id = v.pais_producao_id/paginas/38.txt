@@ -1,0 +1,13 @@
+3,Argentina,ARG,321,allegro-pinot,1978,0,3
+3,Argentina,ARG,323,silent-merlot,1988,61,3
+3,Argentina,ARG,324,complicated-shiraz,1920,62,3
+3,Argentina,ARG,325,cloudy-amarone,1978,24,3
+3,Argentina,ARG,328,ancient-auslese,1934,37,3
+3,Argentina,ARG,332,shrewd-mead,1948,44,3
+3,Argentina,ARG,333,cruel-moscato,1974,31,3
+3,Argentina,ARG,340,express-chianti,1988,18,3
+3,Argentina,ARG,341,ragged-amarone,1950,19,3
+3,Argentina,ARG,346,wood-chinon,2002,13,3
+3,Argentina,ARG,350,red-zinfandel,1988,53,3
+3,Argentina,ARG,353,adjacent-chablis,1910,56,3
+12

@@ -1,0 +1,13 @@
+5,Saint Macaire,branco,1913,3,139,adagio-mead,1916,5,1
+5,Saint Macaire,branco,1913,3,329,ambitious-mead,1916,5,0
+5,Saint Macaire,branco,1913,3,379,bounded-lambrusco,1916,5,3
+5,Saint Macaire,branco,1913,3,402,relative-chardonnay,1916,5,3
+5,Saint Macaire,branco,1913,3,462,cold-grappa,1916,5,0
+6,Riesling,branco,1964,1,2,potential-chardonnay,1968,6,2
+6,Riesling,branco,1964,1,40,worn-pinot,1968,6,2
+6,Riesling,branco,1964,1,106,numerous-banylus,1968,6,0
+6,Riesling,branco,1964,1,225,curious-banylus,1968,6,3
+6,Riesling,branco,1964,1,284,radial-pinot,1968,6,2
+7,Sauvignon Blanc,branco,1920,2,39,lower-chianti,1920,7,2
+7,Sauvignon Blanc,branco,1920,2,51,colorful-chinon,1920,7,2
+12

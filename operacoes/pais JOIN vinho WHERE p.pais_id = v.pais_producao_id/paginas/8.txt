@@ -1,0 +1,13 @@
+0,Argentina,ARG,399,oriented-madeira,1978,0,0
+0,Argentina,ARG,405,maximum-cabernet,1970,2,0
+0,Argentina,ARG,406,juvenile-champagne,1958,52,0
+0,Argentina,ARG,413,impulsive-albariño,2016,72,0
+0,Argentina,ARG,415,cheerful-arneis,1998,50,0
+0,Argentina,ARG,416,beige-sherry,1948,44,0
+0,Argentina,ARG,417,gentle-beaujolais,1956,3,0
+0,Argentina,ARG,420,swarm-dolcetto,1974,31,0
+0,Argentina,ARG,421,diachronic-port,1992,33,0
+0,Argentina,ARG,423,archaic-auslese,1916,38,0
+0,Argentina,ARG,427,citron-shiraz,1970,2,0
+0,Argentina,ARG,437,direct-grappa,2002,13,0
+12

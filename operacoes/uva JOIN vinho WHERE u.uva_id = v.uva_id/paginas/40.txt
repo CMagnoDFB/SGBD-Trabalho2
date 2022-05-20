@@ -1,0 +1,13 @@
+72,Ruby Seedless,rosé,2013,0,234,stubborn-lambrusco,2016,72,0
+72,Ruby Seedless,rosé,2013,0,373,brute-lambrusco,2016,72,3
+72,Ruby Seedless,rosé,2013,0,413,impulsive-albariño,2016,72,0
+72,Ruby Seedless,rosé,2013,0,499,brutal-sherry,2016,72,1
+73,Sultana,rosé,1915,1,212,presto-moscato,1920,73,3
+73,Sultana,rosé,1915,1,223,breezy-chablis,1920,73,2
+73,Sultana,rosé,1915,1,281,wicker-auslese,1920,73,1
+73,Sultana,rosé,1915,1,310,terminal-mead,1920,73,1
+73,Sultana,rosé,1915,1,356,navy-grappa,1920,73,1
+73,Sultana,rosé,1915,1,410,maroon-chablis,1920,73,2
+73,Sultana,rosé,1915,1,411,happy-chardonnay,1920,73,3
+73,Sultana,rosé,1915,1,458,allegro-grappa,1920,73,1
+12

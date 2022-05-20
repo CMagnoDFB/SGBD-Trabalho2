@@ -1,0 +1,13 @@
+0,Sauvignon Blanc,branco,1974,0,11,shy-sauvignon,1974,31,0
+0,Sauvignon Blanc,branco,1974,0,77,jolly-rosé,1974,31,0
+0,Sauvignon Blanc,branco,1974,0,83,balanced-amarone,1974,57,1
+0,Sauvignon Blanc,branco,1974,0,87,relaxed-barbaresco,1974,31,0
+0,Sauvignon Blanc,branco,1974,0,117,coplanar-chablis,1974,31,1
+0,Sauvignon Blanc,branco,1974,0,121,equilateral-pinot,1974,57,2
+0,Sauvignon Blanc,branco,1974,0,125,radiant-chablis,1974,57,2
+0,Sauvignon Blanc,branco,1974,0,126,hoary-sauvignon,1974,57,2
+0,Sauvignon Blanc,branco,1974,0,151,absolute-rosé,1974,57,3
+0,Sauvignon Blanc,branco,1974,0,158,sparse-chianti,1974,57,1
+0,Sauvignon Blanc,branco,1974,0,190,relative-auslese,1974,57,1
+0,Sauvignon Blanc,branco,1974,0,197,ragged-albariño,1974,31,0
+12

@@ -1,0 +1,13 @@
+28,Chardonnay,tinto,2010,2,215,freezing-chianti,2010,28,1
+28,Chardonnay,tinto,2010,2,229,respectful-amarone,2010,28,3
+28,Chardonnay,tinto,2010,2,294,calm-chianti,2010,28,1
+28,Chardonnay,tinto,2010,2,375,curious-noir,2010,28,3
+28,Chardonnay,tinto,2010,2,453,central-barolo,2010,28,0
+29,Purple Cornichon,rosé,1988,1,13,concrete-zinfandel,1988,18,1
+29,Purple Cornichon,rosé,1988,1,18,serious-bardolino,1988,53,2
+29,Purple Cornichon,rosé,1988,1,28,charcoal-arneis,1988,53,3
+29,Purple Cornichon,rosé,1988,1,50,acute-pinot,1988,53,1
+29,Purple Cornichon,rosé,1988,1,61,cheerful-burgundy,1988,18,0
+29,Purple Cornichon,rosé,1988,1,82,intricate-lambrusco,1988,53,1
+29,Purple Cornichon,rosé,1988,1,123,bronze-merlot,1988,61,2
+12

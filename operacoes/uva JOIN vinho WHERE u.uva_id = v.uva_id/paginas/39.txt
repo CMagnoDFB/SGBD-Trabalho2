@@ -1,0 +1,13 @@
+68,Muscat Hamburg,branco,1964,0,380,ancient-prosecco,1968,68,2
+68,Muscat Hamburg,branco,1964,0,403,beveled-chablis,1968,68,1
+68,Muscat Hamburg,branco,1964,0,460,friendly-noir,1968,68,1
+69,Flame Seedless,rosé,2004,2,130,radioactive-banylus,2008,69,3
+69,Flame Seedless,rosé,2004,2,304,interior-moscato,2008,69,2
+69,Flame Seedless,rosé,2004,2,490,polite-barolo,2008,69,0
+70,Cabernet Sauvignon,rosé,1977,3,258,young-muscat,1984,70,3
+70,Cabernet Sauvignon,rosé,1977,3,300,blazing-blanc,1984,70,0
+71,Ruby Seedless,tinto,2014,0,22,sluggish-pinot,2018,71,2
+71,Ruby Seedless,tinto,2014,0,318,asymptotic-amarone,2018,71,0
+71,Ruby Seedless,tinto,2014,0,358,reduced-arneis,2018,71,2
+71,Ruby Seedless,tinto,2014,0,422,national-madeira,2018,71,1
+12

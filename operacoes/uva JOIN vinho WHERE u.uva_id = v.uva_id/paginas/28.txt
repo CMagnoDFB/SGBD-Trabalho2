@@ -1,0 +1,13 @@
+50,Purple Cornichon,rosé,1989,2,49,achromatic-prosecco,1998,50,1
+50,Purple Cornichon,rosé,1989,2,119,arid-muscat,1998,50,2
+50,Purple Cornichon,rosé,1989,2,172,median-champagne,1998,50,1
+50,Purple Cornichon,rosé,1989,2,205,flat-arneis,1998,50,2
+50,Purple Cornichon,rosé,1989,2,415,cheerful-arneis,1998,50,0
+50,Purple Cornichon,rosé,1989,2,440,trite-champagne,1998,50,2
+50,Purple Cornichon,rosé,1989,2,446,gilded-port,1998,50,0
+50,Purple Cornichon,rosé,1989,2,451,bold-zinfandel,1998,50,3
+50,Purple Cornichon,rosé,1989,2,482,savage-lambrusco,1998,50,2
+51,Chardonnay,branco,2007,3,128,right-cabernet,2014,51,0
+51,Chardonnay,branco,2007,3,143,nippy-sherry,2014,51,3
+51,Chardonnay,branco,2007,3,187,stern-champagne,2014,51,2
+12

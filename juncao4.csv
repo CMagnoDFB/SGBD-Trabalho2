@@ -1,0 +1,425 @@
+uva_id,nome,tipo,ano_colheita,pais_origem_id,vinho_id,rotulo,ano_producao,uva_id,pais_producao_id
+0,Sauvignon Blanc,branco,1974,0,11,shy-sauvignon,1974,31,0
+0,Sauvignon Blanc,branco,1974,0,77,jolly-rosé,1974,31,0
+0,Sauvignon Blanc,branco,1974,0,83,balanced-amarone,1974,57,1
+0,Sauvignon Blanc,branco,1974,0,87,relaxed-barbaresco,1974,31,0
+0,Sauvignon Blanc,branco,1974,0,117,coplanar-chablis,1974,31,1
+0,Sauvignon Blanc,branco,1974,0,121,equilateral-pinot,1974,57,2
+0,Sauvignon Blanc,branco,1974,0,125,radiant-chablis,1974,57,2
+0,Sauvignon Blanc,branco,1974,0,126,hoary-sauvignon,1974,57,2
+0,Sauvignon Blanc,branco,1974,0,151,absolute-rosé,1974,57,3
+0,Sauvignon Blanc,branco,1974,0,158,sparse-chianti,1974,57,1
+0,Sauvignon Blanc,branco,1974,0,190,relative-auslese,1974,57,1
+0,Sauvignon Blanc,branco,1974,0,197,ragged-albariño,1974,31,0
+0,Sauvignon Blanc,branco,1974,0,227,kind-rosé,1974,57,1
+0,Sauvignon Blanc,branco,1974,0,273,crabby-shiraz,1974,57,1
+0,Sauvignon Blanc,branco,1974,0,282,planar-chianti,1974,57,2
+0,Sauvignon Blanc,branco,1974,0,316,average-chardonnay,1974,57,1
+0,Sauvignon Blanc,branco,1974,0,330,quiet-champagne,1974,57,0
+0,Sauvignon Blanc,branco,1974,0,333,cruel-moscato,1974,31,3
+0,Sauvignon Blanc,branco,1974,0,364,best-bardolino,1974,57,1
+0,Sauvignon Blanc,branco,1974,0,420,swarm-dolcetto,1974,31,0
+0,Sauvignon Blanc,branco,1974,0,479,glad-prosecco,1974,31,0
+4,Sultana,branco,1920,1,39,lower-chianti,1920,7,2
+4,Sultana,branco,1920,1,51,colorful-chinon,1920,7,2
+4,Sultana,branco,1920,1,76,plum-grappa,1920,62,0
+4,Sultana,branco,1920,1,112,freezing-prosecco,1920,7,3
+4,Sultana,branco,1920,1,118,indigo-bardolino,1920,62,1
+4,Sultana,branco,1920,1,122,beige-bardolino,1920,62,0
+4,Sultana,branco,1920,1,134,faint-barbaresco,1920,7,3
+4,Sultana,branco,1920,1,137,adaptive-champagne,1920,4,3
+4,Sultana,branco,1920,1,149,messy-auslese,1920,62,2
+4,Sultana,branco,1920,1,166,acute-beaujolais,1920,62,3
+4,Sultana,branco,1920,1,212,presto-moscato,1920,73,3
+4,Sultana,branco,1920,1,221,intense-chardonnay,1920,7,3
+4,Sultana,branco,1920,1,223,breezy-chablis,1920,73,2
+4,Sultana,branco,1920,1,276,optical-blanc,1920,4,3
+4,Sultana,branco,1920,1,281,wicker-auslese,1920,73,1
+4,Sultana,branco,1920,1,293,formal-prosecco,1920,4,3
+4,Sultana,branco,1920,1,297,isochoric-claret,1920,7,3
+4,Sultana,branco,1920,1,310,terminal-mead,1920,73,1
+4,Sultana,branco,1920,1,324,complicated-shiraz,1920,62,3
+4,Sultana,branco,1920,1,356,navy-grappa,1920,73,1
+4,Sultana,branco,1920,1,361,champagne-rosé,1920,7,0
+4,Sultana,branco,1920,1,363,blaring-moscato,1920,7,1
+4,Sultana,branco,1920,1,371,ascent-pinot,1920,62,3
+4,Sultana,branco,1920,1,387,coplanar-prosecco,1920,4,1
+4,Sultana,branco,1920,1,392,heather-dolcetto,1920,10,0
+4,Sultana,branco,1920,1,394,frigid-chianti,1920,62,2
+4,Sultana,branco,1920,1,404,neat-barolo,1920,4,2
+4,Sultana,branco,1920,1,410,maroon-chablis,1920,73,2
+4,Sultana,branco,1920,1,411,happy-chardonnay,1920,73,3
+4,Sultana,branco,1920,1,432,white-sherry,1920,4,2
+4,Sultana,branco,1920,1,447,genteel-arneis,1920,62,2
+4,Sultana,branco,1920,1,452,chilly-chablis,1920,4,0
+4,Sultana,branco,1920,1,458,allegro-grappa,1920,73,1
+4,Sultana,branco,1920,1,471,exothermic-shiraz,1920,7,3
+4,Sultana,branco,1920,1,485,fixed-prosecco,1920,4,2
+4,Sultana,branco,1920,1,492,another-sauvignon,1920,4,0
+6,Riesling,branco,1964,1,30,funny-barbaresco,1964,60,1
+6,Riesling,branco,1964,1,36,frosty-claret,1964,20,2
+6,Riesling,branco,1964,1,54,annoying-zinfandel,1964,20,3
+6,Riesling,branco,1964,1,59,gray-auslese,1964,60,1
+6,Riesling,branco,1964,1,164,stale-lambrusco,1964,60,3
+6,Riesling,branco,1964,1,204,rapid-grappa,1964,60,1
+6,Riesling,branco,1964,1,231,staccato-zinfandel,1964,20,3
+6,Riesling,branco,1964,1,255,humble-merlot,1964,60,2
+6,Riesling,branco,1964,1,307,brown-champagne,1964,60,1
+6,Riesling,branco,1964,1,319,medium-madeira,1964,60,2
+6,Riesling,branco,1964,1,335,figurative-amarone,1964,60,1
+6,Riesling,branco,1964,1,337,trusting-chardonnay,1964,20,2
+6,Riesling,branco,1964,1,400,vain-pinot,1964,20,1
+6,Riesling,branco,1964,1,481,timid-moscato,1964,60,2
+6,Riesling,branco,1964,1,484,vivid-madeira,1964,20,3
+6,Riesling,branco,1964,1,487,oriented-arneis,1964,60,3
+6,Riesling,branco,1964,1,489,mild-chinon,1964,20,0
+7,Sauvignon Blanc,branco,1920,2,39,lower-chianti,1920,7,2
+7,Sauvignon Blanc,branco,1920,2,51,colorful-chinon,1920,7,2
+7,Sauvignon Blanc,branco,1920,2,76,plum-grappa,1920,62,0
+7,Sauvignon Blanc,branco,1920,2,112,freezing-prosecco,1920,7,3
+7,Sauvignon Blanc,branco,1920,2,118,indigo-bardolino,1920,62,1
+7,Sauvignon Blanc,branco,1920,2,122,beige-bardolino,1920,62,0
+7,Sauvignon Blanc,branco,1920,2,134,faint-barbaresco,1920,7,3
+7,Sauvignon Blanc,branco,1920,2,137,adaptive-champagne,1920,4,3
+7,Sauvignon Blanc,branco,1920,2,149,messy-auslese,1920,62,2
+7,Sauvignon Blanc,branco,1920,2,166,acute-beaujolais,1920,62,3
+7,Sauvignon Blanc,branco,1920,2,212,presto-moscato,1920,73,3
+7,Sauvignon Blanc,branco,1920,2,221,intense-chardonnay,1920,7,3
+7,Sauvignon Blanc,branco,1920,2,223,breezy-chablis,1920,73,2
+7,Sauvignon Blanc,branco,1920,2,276,optical-blanc,1920,4,3
+7,Sauvignon Blanc,branco,1920,2,281,wicker-auslese,1920,73,1
+7,Sauvignon Blanc,branco,1920,2,293,formal-prosecco,1920,4,3
+7,Sauvignon Blanc,branco,1920,2,297,isochoric-claret,1920,7,3
+7,Sauvignon Blanc,branco,1920,2,310,terminal-mead,1920,73,1
+7,Sauvignon Blanc,branco,1920,2,324,complicated-shiraz,1920,62,3
+7,Sauvignon Blanc,branco,1920,2,356,navy-grappa,1920,73,1
+7,Sauvignon Blanc,branco,1920,2,361,champagne-rosé,1920,7,0
+7,Sauvignon Blanc,branco,1920,2,363,blaring-moscato,1920,7,1
+7,Sauvignon Blanc,branco,1920,2,371,ascent-pinot,1920,62,3
+7,Sauvignon Blanc,branco,1920,2,387,coplanar-prosecco,1920,4,1
+7,Sauvignon Blanc,branco,1920,2,392,heather-dolcetto,1920,10,0
+7,Sauvignon Blanc,branco,1920,2,394,frigid-chianti,1920,62,2
+7,Sauvignon Blanc,branco,1920,2,404,neat-barolo,1920,4,2
+7,Sauvignon Blanc,branco,1920,2,410,maroon-chablis,1920,73,2
+7,Sauvignon Blanc,branco,1920,2,411,happy-chardonnay,1920,73,3
+7,Sauvignon Blanc,branco,1920,2,432,white-sherry,1920,4,2
+7,Sauvignon Blanc,branco,1920,2,447,genteel-arneis,1920,62,2
+7,Sauvignon Blanc,branco,1920,2,452,chilly-chablis,1920,4,0
+7,Sauvignon Blanc,branco,1920,2,458,allegro-grappa,1920,73,1
+7,Sauvignon Blanc,branco,1920,2,471,exothermic-shiraz,1920,7,3
+7,Sauvignon Blanc,branco,1920,2,485,fixed-prosecco,1920,4,2
+7,Sauvignon Blanc,branco,1920,2,492,another-sauvignon,1920,4,0
+16,Viognier,tinto,1980,3,42,jovial-sherry,1980,16,2
+16,Viognier,tinto,1980,3,66,inverse-chinon,1980,16,1
+16,Viognier,tinto,1980,3,93,brave-riesling,1980,16,1
+16,Viognier,tinto,1980,3,148,nondeterministic-auslese,1980,16,1
+16,Viognier,tinto,1980,3,248,quick-merlot,1980,16,0
+16,Viognier,tinto,1980,3,283,chamfered-pinot,1980,16,2
+16,Viognier,tinto,1980,3,299,naive-barbaresco,1980,16,1
+16,Viognier,tinto,1980,3,372,internal-zinfandel,1980,16,3
+16,Viognier,tinto,1980,3,412,broad-cabernet,1980,16,2
+16,Viognier,tinto,1980,3,434,free-mead,1980,16,2
+16,Viognier,tinto,1980,3,457,chestnut-auslese,1980,16,1
+16,Viognier,tinto,1980,3,459,easy-shiraz,1980,16,3
+18,Muscat Hamburg,rosé,1984,3,258,young-muscat,1984,70,3
+18,Muscat Hamburg,rosé,1984,3,300,blazing-blanc,1984,70,0
+21,Cabernet Sauvignon,tinto,1930,2,46,collinear-claret,1930,21,3
+21,Cabernet Sauvignon,tinto,1930,2,124,simple-bardolino,1930,21,2
+21,Cabernet Sauvignon,tinto,1930,2,168,oily-lambrusco,1930,21,0
+21,Cabernet Sauvignon,tinto,1930,2,488,leather-barbaresco,1930,21,1
+22,Chardonnay,tinto,1988,3,13,concrete-zinfandel,1988,18,1
+22,Chardonnay,tinto,1988,3,18,serious-bardolino,1988,53,2
+22,Chardonnay,tinto,1988,3,28,charcoal-arneis,1988,53,3
+22,Chardonnay,tinto,1988,3,50,acute-pinot,1988,53,1
+22,Chardonnay,tinto,1988,3,61,cheerful-burgundy,1988,18,0
+22,Chardonnay,tinto,1988,3,82,intricate-lambrusco,1988,53,1
+22,Chardonnay,tinto,1988,3,123,bronze-merlot,1988,61,2
+22,Chardonnay,tinto,1988,3,132,lime-auslese,1988,53,1
+22,Chardonnay,tinto,1988,3,147,bone-zinfandel,1988,18,0
+22,Chardonnay,tinto,1988,3,150,auburn-zinfandel,1988,18,2
+22,Chardonnay,tinto,1988,3,153,blue-rosé,1988,61,2
+22,Chardonnay,tinto,1988,3,177,sleek-noir,1988,61,3
+22,Chardonnay,tinto,1988,3,189,decidable-prosecco,1988,18,3
+22,Chardonnay,tinto,1988,3,241,burning-chablis,1988,61,0
+22,Chardonnay,tinto,1988,3,249,nippy-dolcetto,1988,61,0
+22,Chardonnay,tinto,1988,3,252,cool-mead,1988,18,1
+22,Chardonnay,tinto,1988,3,256,optimal-albariño,1988,18,3
+22,Chardonnay,tinto,1988,3,306,wooden-moscato,1988,18,0
+22,Chardonnay,tinto,1988,3,308,perpendicular-mead,1988,53,3
+22,Chardonnay,tinto,1988,3,311,absolute-albariño,1988,18,1
+22,Chardonnay,tinto,1988,3,323,silent-merlot,1988,61,3
+22,Chardonnay,tinto,1988,3,340,express-chianti,1988,18,3
+22,Chardonnay,tinto,1988,3,350,red-zinfandel,1988,53,3
+22,Chardonnay,tinto,1988,3,418,icy-prosecco,1988,61,1
+22,Chardonnay,tinto,1988,3,426,collinear-prosecco,1988,53,3
+22,Chardonnay,tinto,1988,3,431,ebony-chianti,1988,53,1
+22,Chardonnay,tinto,1988,3,483,frosty-bardolino,1988,18,2
+23,Viognier,tinto,1950,2,16,smart-claret,1950,19,3
+23,Viognier,tinto,1950,2,17,radiant-champagne,1950,23,0
+23,Viognier,tinto,1950,2,20,khaki-malbec,1950,23,3
+23,Viognier,tinto,1950,2,38,crunchy-burgundy,1950,19,2
+23,Viognier,tinto,1950,2,72,human-burgundy,1950,23,0
+23,Viognier,tinto,1950,2,86,bone-chianti,1950,23,3
+23,Viognier,tinto,1950,2,103,mute-zinfandel,1950,23,0
+23,Viognier,tinto,1950,2,110,chartreuse-rosé,1950,19,1
+23,Viognier,tinto,1950,2,195,wan-noir,1950,23,0
+23,Viognier,tinto,1950,2,198,silver-banylus,1950,23,0
+23,Viognier,tinto,1950,2,235,internal-rosé,1950,23,1
+23,Viognier,tinto,1950,2,239,internal-albariño,1950,23,0
+23,Viognier,tinto,1950,2,317,charitable-muscat,1950,19,1
+23,Viognier,tinto,1950,2,341,ragged-amarone,1950,19,3
+23,Viognier,tinto,1950,2,359,tense-sauvignon,1950,23,3
+24,Merlot,tinto,1974,2,11,shy-sauvignon,1974,31,0
+24,Merlot,tinto,1974,2,77,jolly-rosé,1974,31,0
+24,Merlot,tinto,1974,2,83,balanced-amarone,1974,57,1
+24,Merlot,tinto,1974,2,87,relaxed-barbaresco,1974,31,0
+24,Merlot,tinto,1974,2,117,coplanar-chablis,1974,31,1
+24,Merlot,tinto,1974,2,121,equilateral-pinot,1974,57,2
+24,Merlot,tinto,1974,2,125,radiant-chablis,1974,57,2
+24,Merlot,tinto,1974,2,126,hoary-sauvignon,1974,57,2
+24,Merlot,tinto,1974,2,151,absolute-rosé,1974,57,3
+24,Merlot,tinto,1974,2,158,sparse-chianti,1974,57,1
+24,Merlot,tinto,1974,2,190,relative-auslese,1974,57,1
+24,Merlot,tinto,1974,2,197,ragged-albariño,1974,31,0
+24,Merlot,tinto,1974,2,227,kind-rosé,1974,57,1
+24,Merlot,tinto,1974,2,273,crabby-shiraz,1974,57,1
+24,Merlot,tinto,1974,2,282,planar-chianti,1974,57,2
+24,Merlot,tinto,1974,2,316,average-chardonnay,1974,57,1
+24,Merlot,tinto,1974,2,330,quiet-champagne,1974,57,0
+24,Merlot,tinto,1974,2,333,cruel-moscato,1974,31,3
+24,Merlot,tinto,1974,2,364,best-bardolino,1974,57,1
+24,Merlot,tinto,1974,2,420,swarm-dolcetto,1974,31,0
+24,Merlot,tinto,1974,2,479,glad-prosecco,1974,31,0
+28,Chardonnay,tinto,2010,2,174,plumb-malbec,2010,28,1
+28,Chardonnay,tinto,2010,2,215,freezing-chianti,2010,28,1
+28,Chardonnay,tinto,2010,2,229,respectful-amarone,2010,28,3
+28,Chardonnay,tinto,2010,2,294,calm-chianti,2010,28,1
+28,Chardonnay,tinto,2010,2,375,curious-noir,2010,28,3
+28,Chardonnay,tinto,2010,2,453,central-barolo,2010,28,0
+29,Purple Cornichon,rosé,1988,1,13,concrete-zinfandel,1988,18,1
+29,Purple Cornichon,rosé,1988,1,18,serious-bardolino,1988,53,2
+29,Purple Cornichon,rosé,1988,1,28,charcoal-arneis,1988,53,3
+29,Purple Cornichon,rosé,1988,1,50,acute-pinot,1988,53,1
+29,Purple Cornichon,rosé,1988,1,61,cheerful-burgundy,1988,18,0
+29,Purple Cornichon,rosé,1988,1,82,intricate-lambrusco,1988,53,1
+29,Purple Cornichon,rosé,1988,1,123,bronze-merlot,1988,61,2
+29,Purple Cornichon,rosé,1988,1,132,lime-auslese,1988,53,1
+29,Purple Cornichon,rosé,1988,1,147,bone-zinfandel,1988,18,0
+29,Purple Cornichon,rosé,1988,1,150,auburn-zinfandel,1988,18,2
+29,Purple Cornichon,rosé,1988,1,153,blue-rosé,1988,61,2
+29,Purple Cornichon,rosé,1988,1,177,sleek-noir,1988,61,3
+29,Purple Cornichon,rosé,1988,1,189,decidable-prosecco,1988,18,3
+29,Purple Cornichon,rosé,1988,1,241,burning-chablis,1988,61,0
+29,Purple Cornichon,rosé,1988,1,249,nippy-dolcetto,1988,61,0
+29,Purple Cornichon,rosé,1988,1,252,cool-mead,1988,18,1
+29,Purple Cornichon,rosé,1988,1,256,optimal-albariño,1988,18,3
+29,Purple Cornichon,rosé,1988,1,306,wooden-moscato,1988,18,0
+29,Purple Cornichon,rosé,1988,1,308,perpendicular-mead,1988,53,3
+29,Purple Cornichon,rosé,1988,1,311,absolute-albariño,1988,18,1
+29,Purple Cornichon,rosé,1988,1,323,silent-merlot,1988,61,3
+29,Purple Cornichon,rosé,1988,1,340,express-chianti,1988,18,3
+29,Purple Cornichon,rosé,1988,1,350,red-zinfandel,1988,53,3
+29,Purple Cornichon,rosé,1988,1,418,icy-prosecco,1988,61,1
+29,Purple Cornichon,rosé,1988,1,426,collinear-prosecco,1988,53,3
+29,Purple Cornichon,rosé,1988,1,431,ebony-chianti,1988,53,1
+29,Purple Cornichon,rosé,1988,1,483,frosty-bardolino,1988,18,2
+30,Merlot,tinto,1988,3,13,concrete-zinfandel,1988,18,1
+30,Merlot,tinto,1988,3,18,serious-bardolino,1988,53,2
+30,Merlot,tinto,1988,3,28,charcoal-arneis,1988,53,3
+30,Merlot,tinto,1988,3,50,acute-pinot,1988,53,1
+30,Merlot,tinto,1988,3,61,cheerful-burgundy,1988,18,0
+30,Merlot,tinto,1988,3,82,intricate-lambrusco,1988,53,1
+30,Merlot,tinto,1988,3,123,bronze-merlot,1988,61,2
+30,Merlot,tinto,1988,3,132,lime-auslese,1988,53,1
+30,Merlot,tinto,1988,3,147,bone-zinfandel,1988,18,0
+30,Merlot,tinto,1988,3,150,auburn-zinfandel,1988,18,2
+30,Merlot,tinto,1988,3,153,blue-rosé,1988,61,2
+30,Merlot,tinto,1988,3,177,sleek-noir,1988,61,3
+30,Merlot,tinto,1988,3,189,decidable-prosecco,1988,18,3
+30,Merlot,tinto,1988,3,241,burning-chablis,1988,61,0
+30,Merlot,tinto,1988,3,249,nippy-dolcetto,1988,61,0
+30,Merlot,tinto,1988,3,252,cool-mead,1988,18,1
+30,Merlot,tinto,1988,3,256,optimal-albariño,1988,18,3
+30,Merlot,tinto,1988,3,306,wooden-moscato,1988,18,0
+30,Merlot,tinto,1988,3,308,perpendicular-mead,1988,53,3
+30,Merlot,tinto,1988,3,311,absolute-albariño,1988,18,1
+30,Merlot,tinto,1988,3,323,silent-merlot,1988,61,3
+30,Merlot,tinto,1988,3,340,express-chianti,1988,18,3
+30,Merlot,tinto,1988,3,350,red-zinfandel,1988,53,3
+30,Merlot,tinto,1988,3,418,icy-prosecco,1988,61,1
+30,Merlot,tinto,1988,3,426,collinear-prosecco,1988,53,3
+30,Merlot,tinto,1988,3,431,ebony-chianti,1988,53,1
+30,Merlot,tinto,1988,3,483,frosty-bardolino,1988,18,2
+31,Sauvignon Blanc,tinto,1972,0,100,glass-barolo,1972,25,2
+31,Sauvignon Blanc,tinto,1972,0,170,paper-shiraz,1972,25,1
+31,Sauvignon Blanc,tinto,1972,0,222,critical-amarone,1972,25,2
+31,Sauvignon Blanc,tinto,1972,0,393,closed-merlot,1972,25,1
+31,Sauvignon Blanc,tinto,1972,0,424,resolving-port,1972,25,2
+36,Saint Macaire,rosé,1924,2,184,parallel-blanc,1924,9,3
+36,Saint Macaire,rosé,1924,2,188,burning-chinon,1924,9,1
+36,Saint Macaire,rosé,1924,2,233,rust-muscat,1924,9,0
+36,Saint Macaire,rosé,1924,2,384,persistent-albariño,1924,9,2
+36,Saint Macaire,rosé,1924,2,455,scared-blanc,1924,9,2
+49,Flame Seedless,rosé,1944,3,4,mild-sauvignon,1944,59,1
+49,Flame Seedless,rosé,1944,3,75,staccato-rosé,1944,59,2
+49,Flame Seedless,rosé,1944,3,105,bare-chardonnay,1944,59,0
+49,Flame Seedless,rosé,1944,3,133,tense-sauvignon,1944,59,1
+49,Flame Seedless,rosé,1944,3,136,coplanar-prosecco,1944,59,2
+49,Flame Seedless,rosé,1944,3,365,future-marsanne,1944,59,0
+56,Viognier,rosé,1910,2,107,cross-auslese,1910,56,1
+56,Viognier,rosé,1910,2,173,descent-chinon,1910,56,0
+56,Viognier,rosé,1910,2,269,faded-amarone,1910,56,0
+56,Viognier,rosé,1910,2,342,tangy-blanc,1910,56,1
+56,Viognier,rosé,1910,2,353,adjacent-chablis,1910,56,3
+56,Viognier,rosé,1910,2,433,linear-chardonnay,1910,56,1
+57,Cabernet Sauvignon,tinto,1972,3,100,glass-barolo,1972,25,2
+57,Cabernet Sauvignon,tinto,1972,3,170,paper-shiraz,1972,25,1
+57,Cabernet Sauvignon,tinto,1972,3,222,critical-amarone,1972,25,2
+57,Cabernet Sauvignon,tinto,1972,3,393,closed-merlot,1972,25,1
+57,Cabernet Sauvignon,tinto,1972,3,424,resolving-port,1972,25,2
+58,Flame Seedless,rosé,1992,3,160,spicy-barbaresco,1992,33,3
+58,Flame Seedless,rosé,1992,3,186,chalky-champagne,1992,33,0
+58,Flame Seedless,rosé,1992,3,224,central-madeira,1992,33,0
+58,Flame Seedless,rosé,1992,3,421,diachronic-port,1992,33,0
+58,Flame Seedless,rosé,1992,3,425,steel-banylus,1992,33,2
+58,Flame Seedless,rosé,1992,3,461,flush-pinot,1992,33,0
+58,Flame Seedless,rosé,1992,3,495,feasible-marsanne,1992,33,3
+61,Riesling,branco,1984,0,258,young-muscat,1984,70,3
+61,Riesling,branco,1984,0,300,blazing-blanc,1984,70,0
+62,Chardonnay,rosé,1920,0,39,lower-chianti,1920,7,2
+62,Chardonnay,rosé,1920,0,51,colorful-chinon,1920,7,2
+62,Chardonnay,rosé,1920,0,76,plum-grappa,1920,62,0
+62,Chardonnay,rosé,1920,0,112,freezing-prosecco,1920,7,3
+62,Chardonnay,rosé,1920,0,118,indigo-bardolino,1920,62,1
+62,Chardonnay,rosé,1920,0,122,beige-bardolino,1920,62,0
+62,Chardonnay,rosé,1920,0,134,faint-barbaresco,1920,7,3
+62,Chardonnay,rosé,1920,0,137,adaptive-champagne,1920,4,3
+62,Chardonnay,rosé,1920,0,149,messy-auslese,1920,62,2
+62,Chardonnay,rosé,1920,0,166,acute-beaujolais,1920,62,3
+62,Chardonnay,rosé,1920,0,212,presto-moscato,1920,73,3
+62,Chardonnay,rosé,1920,0,221,intense-chardonnay,1920,7,3
+62,Chardonnay,rosé,1920,0,223,breezy-chablis,1920,73,2
+62,Chardonnay,rosé,1920,0,276,optical-blanc,1920,4,3
+62,Chardonnay,rosé,1920,0,281,wicker-auslese,1920,73,1
+62,Chardonnay,rosé,1920,0,293,formal-prosecco,1920,4,3
+62,Chardonnay,rosé,1920,0,297,isochoric-claret,1920,7,3
+62,Chardonnay,rosé,1920,0,310,terminal-mead,1920,73,1
+62,Chardonnay,rosé,1920,0,324,complicated-shiraz,1920,62,3
+62,Chardonnay,rosé,1920,0,356,navy-grappa,1920,73,1
+62,Chardonnay,rosé,1920,0,361,champagne-rosé,1920,7,0
+62,Chardonnay,rosé,1920,0,363,blaring-moscato,1920,7,1
+62,Chardonnay,rosé,1920,0,371,ascent-pinot,1920,62,3
+62,Chardonnay,rosé,1920,0,387,coplanar-prosecco,1920,4,1
+62,Chardonnay,rosé,1920,0,392,heather-dolcetto,1920,10,0
+62,Chardonnay,rosé,1920,0,394,frigid-chianti,1920,62,2
+62,Chardonnay,rosé,1920,0,404,neat-barolo,1920,4,2
+62,Chardonnay,rosé,1920,0,410,maroon-chablis,1920,73,2
+62,Chardonnay,rosé,1920,0,411,happy-chardonnay,1920,73,3
+62,Chardonnay,rosé,1920,0,432,white-sherry,1920,4,2
+62,Chardonnay,rosé,1920,0,447,genteel-arneis,1920,62,2
+62,Chardonnay,rosé,1920,0,452,chilly-chablis,1920,4,0
+62,Chardonnay,rosé,1920,0,458,allegro-grappa,1920,73,1
+62,Chardonnay,rosé,1920,0,471,exothermic-shiraz,1920,7,3
+62,Chardonnay,rosé,1920,0,485,fixed-prosecco,1920,4,2
+62,Chardonnay,rosé,1920,0,492,another-sauvignon,1920,4,0
+63,Muscat Hamburg,tinto,1928,3,10,ragged-chablis,1928,36,3
+63,Muscat Hamburg,tinto,1928,3,31,internal-bardolino,1928,40,3
+63,Muscat Hamburg,tinto,1928,3,71,silver-dolcetto,1928,36,3
+63,Muscat Hamburg,tinto,1928,3,141,brave-pinot,1928,54,0
+63,Muscat Hamburg,tinto,1928,3,152,isomorphic-burgundy,1928,54,1
+63,Muscat Hamburg,tinto,1928,3,242,fat-muscat,1928,36,2
+63,Muscat Hamburg,tinto,1928,3,244,zesty-lambrusco,1928,54,1
+63,Muscat Hamburg,tinto,1928,3,295,clever-noir,1928,36,2
+63,Muscat Hamburg,tinto,1928,3,368,pizzicato-riesling,1928,40,3
+63,Muscat Hamburg,tinto,1928,3,401,careful-grappa,1928,54,1
+63,Muscat Hamburg,tinto,1928,3,409,fancy-dolcetto,1928,36,2
+63,Muscat Hamburg,tinto,1928,3,468,forward-lambrusco,1928,54,3
+65,Merlot,branco,1964,2,30,funny-barbaresco,1964,60,1
+65,Merlot,branco,1964,2,36,frosty-claret,1964,20,2
+65,Merlot,branco,1964,2,54,annoying-zinfandel,1964,20,3
+65,Merlot,branco,1964,2,59,gray-auslese,1964,60,1
+65,Merlot,branco,1964,2,164,stale-lambrusco,1964,60,3
+65,Merlot,branco,1964,2,204,rapid-grappa,1964,60,1
+65,Merlot,branco,1964,2,231,staccato-zinfandel,1964,20,3
+65,Merlot,branco,1964,2,255,humble-merlot,1964,60,2
+65,Merlot,branco,1964,2,307,brown-champagne,1964,60,1
+65,Merlot,branco,1964,2,319,medium-madeira,1964,60,2
+65,Merlot,branco,1964,2,335,figurative-amarone,1964,60,1
+65,Merlot,branco,1964,2,337,trusting-chardonnay,1964,20,2
+65,Merlot,branco,1964,2,400,vain-pinot,1964,20,1
+65,Merlot,branco,1964,2,481,timid-moscato,1964,60,2
+65,Merlot,branco,1964,2,484,vivid-madeira,1964,20,3
+65,Merlot,branco,1964,2,487,oriented-arneis,1964,60,3
+65,Merlot,branco,1964,2,489,mild-chinon,1964,20,0
+67,Cabernet Sauvignon,rosé,1958,3,29,chilly-chardonnay,1958,34,2
+67,Cabernet Sauvignon,rosé,1958,3,41,broad-claret,1958,66,2
+67,Cabernet Sauvignon,rosé,1958,3,52,bright-chianti,1958,26,2
+67,Cabernet Sauvignon,rosé,1958,3,53,ragged-sauvignon,1958,26,2
+67,Cabernet Sauvignon,rosé,1958,3,63,elaborate-banylus,1958,34,2
+67,Cabernet Sauvignon,rosé,1958,3,67,parallel-albariño,1958,43,3
+67,Cabernet Sauvignon,rosé,1958,3,74,annoying-rosé,1958,52,1
+67,Cabernet Sauvignon,rosé,1958,3,79,muted-marsanne,1958,66,2
+67,Cabernet Sauvignon,rosé,1958,3,84,silver-marsanne,1958,66,2
+67,Cabernet Sauvignon,rosé,1958,3,91,breezy-port,1958,26,0
+67,Cabernet Sauvignon,rosé,1958,3,135,kinetic-burgundy,1958,52,3
+67,Cabernet Sauvignon,rosé,1958,3,142,ferocious-muscat,1958,39,1
+67,Cabernet Sauvignon,rosé,1958,3,169,chocolate-albariño,1958,66,1
+67,Cabernet Sauvignon,rosé,1958,3,201,rounded-zinfandel,1958,34,2
+67,Cabernet Sauvignon,rosé,1958,3,208,dark-bardolino,1958,66,2
+67,Cabernet Sauvignon,rosé,1958,3,211,kinetic-burgundy,1958,39,1
+67,Cabernet Sauvignon,rosé,1958,3,214,rude-moscato,1958,43,1
+67,Cabernet Sauvignon,rosé,1958,3,220,silver-malbec,1958,34,1
+67,Cabernet Sauvignon,rosé,1958,3,266,heather-chianti,1958,52,0
+67,Cabernet Sauvignon,rosé,1958,3,271,taxonomic-banylus,1958,52,2
+67,Cabernet Sauvignon,rosé,1958,3,277,weary-albariño,1958,34,2
+67,Cabernet Sauvignon,rosé,1958,3,287,product-rosé,1958,39,3
+67,Cabernet Sauvignon,rosé,1958,3,291,affable-chianti,1958,26,0
+67,Cabernet Sauvignon,rosé,1958,3,313,miniature-moscato,1958,66,2
+67,Cabernet Sauvignon,rosé,1958,3,331,leather-lambrusco,1958,43,2
+67,Cabernet Sauvignon,rosé,1958,3,370,plain-sauvignon,1958,26,2
+67,Cabernet Sauvignon,rosé,1958,3,378,serious-amarone,1958,34,0
+67,Cabernet Sauvignon,rosé,1958,3,396,round-port,1958,26,0
+67,Cabernet Sauvignon,rosé,1958,3,406,juvenile-champagne,1958,52,0
+67,Cabernet Sauvignon,rosé,1958,3,408,basic-riesling,1958,52,1
+67,Cabernet Sauvignon,rosé,1958,3,463,sizzling-merlot,1958,52,2
+67,Cabernet Sauvignon,rosé,1958,3,476,finite-noir,1958,66,2
+67,Cabernet Sauvignon,rosé,1958,3,477,cruel-cabernet,1958,66,0
+67,Cabernet Sauvignon,rosé,1958,3,478,unsorted-muscat,1958,26,3
+67,Cabernet Sauvignon,rosé,1958,3,498,avocado-champagne,1958,26,0
+68,Muscat Hamburg,branco,1964,0,30,funny-barbaresco,1964,60,1
+68,Muscat Hamburg,branco,1964,0,36,frosty-claret,1964,20,2
+68,Muscat Hamburg,branco,1964,0,54,annoying-zinfandel,1964,20,3
+68,Muscat Hamburg,branco,1964,0,59,gray-auslese,1964,60,1
+68,Muscat Hamburg,branco,1964,0,164,stale-lambrusco,1964,60,3
+68,Muscat Hamburg,branco,1964,0,204,rapid-grappa,1964,60,1
+68,Muscat Hamburg,branco,1964,0,231,staccato-zinfandel,1964,20,3
+68,Muscat Hamburg,branco,1964,0,255,humble-merlot,1964,60,2
+68,Muscat Hamburg,branco,1964,0,307,brown-champagne,1964,60,1
+68,Muscat Hamburg,branco,1964,0,319,medium-madeira,1964,60,2
+68,Muscat Hamburg,branco,1964,0,335,figurative-amarone,1964,60,1
+68,Muscat Hamburg,branco,1964,0,337,trusting-chardonnay,1964,20,2
+68,Muscat Hamburg,branco,1964,0,400,vain-pinot,1964,20,1
+68,Muscat Hamburg,branco,1964,0,481,timid-moscato,1964,60,2
+68,Muscat Hamburg,branco,1964,0,484,vivid-madeira,1964,20,3
+68,Muscat Hamburg,branco,1964,0,487,oriented-arneis,1964,60,3
+68,Muscat Hamburg,branco,1964,0,489,mild-chinon,1964,20,0
+71,Ruby Seedless,tinto,2014,0,12,parallel-chardonnay,2014,8,0
+71,Ruby Seedless,tinto,2014,0,95,absolute-sauvignon,2014,8,1
+71,Ruby Seedless,tinto,2014,0,128,right-cabernet,2014,51,0
+71,Ruby Seedless,tinto,2014,0,143,nippy-sherry,2014,51,3
+71,Ruby Seedless,tinto,2014,0,155,champagne-banylus,2014,8,3
+71,Ruby Seedless,tinto,2014,0,187,stern-champagne,2014,51,2
+71,Ruby Seedless,tinto,2014,0,257,indulgent-dolcetto,2014,8,1
+71,Ruby Seedless,tinto,2014,0,260,wood-noir,2014,51,0
+71,Ruby Seedless,tinto,2014,0,265,cold-madeira,2014,51,2
+71,Ruby Seedless,tinto,2014,0,280,molten-riesling,2014,8,1
+71,Ruby Seedless,tinto,2014,0,289,staff-burgundy,2014,8,2
+71,Ruby Seedless,tinto,2014,0,448,gravitational-dolcetto,2014,51,3
+74,Flame Seedless,branco,1960,2,21,strong-chinon,1960,74,2
+74,Flame Seedless,branco,1960,2,228,coincident-sauvignon,1960,74,3
+74,Flame Seedless,branco,1960,2,278,purple-muscat,1960,74,2
+74,Flame Seedless,branco,1960,2,338,shy-banylus,1960,74,2
+74,Flame Seedless,branco,1960,2,354,coal-zinfandel,1960,74,2
+74,Flame Seedless,branco,1960,2,439,dry-bardolino,1960,74,2
+74,Flame Seedless,branco,1960,2,466,investor-barbaresco,1960,74,0
+74,Flame Seedless,branco,1960,2,469,bitter-chinon,1960,74,1

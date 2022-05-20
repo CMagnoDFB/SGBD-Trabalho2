@@ -1,0 +1,13 @@
+17,Cabernet Sauvignon,branco,2003,1,279,buoyant-cabernet,2006,17,2
+17,Cabernet Sauvignon,branco,2003,1,343,magnetic-beaujolais,2006,17,2
+17,Cabernet Sauvignon,branco,2003,1,390,rosy-prosecco,2006,17,1
+18,Muscat Hamburg,rosé,1984,3,13,concrete-zinfandel,1988,18,1
+18,Muscat Hamburg,rosé,1984,3,61,cheerful-burgundy,1988,18,0
+18,Muscat Hamburg,rosé,1984,3,147,bone-zinfandel,1988,18,0
+18,Muscat Hamburg,rosé,1984,3,150,auburn-zinfandel,1988,18,2
+18,Muscat Hamburg,rosé,1984,3,189,decidable-prosecco,1988,18,3
+18,Muscat Hamburg,rosé,1984,3,252,cool-mead,1988,18,1
+18,Muscat Hamburg,rosé,1984,3,256,optimal-albariño,1988,18,3
+18,Muscat Hamburg,rosé,1984,3,306,wooden-moscato,1988,18,0
+18,Muscat Hamburg,rosé,1984,3,311,absolute-albariño,1988,18,1
+12

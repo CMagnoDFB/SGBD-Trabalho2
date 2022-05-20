@@ -1,0 +1,13 @@
+62,Chardonnay,rosé,1920,0,51,colorful-chinon,1920,7,2
+62,Chardonnay,rosé,1920,0,76,plum-grappa,1920,62,0
+62,Chardonnay,rosé,1920,0,112,freezing-prosecco,1920,7,3
+62,Chardonnay,rosé,1920,0,118,indigo-bardolino,1920,62,1
+62,Chardonnay,rosé,1920,0,122,beige-bardolino,1920,62,0
+62,Chardonnay,rosé,1920,0,134,faint-barbaresco,1920,7,3
+62,Chardonnay,rosé,1920,0,137,adaptive-champagne,1920,4,3
+62,Chardonnay,rosé,1920,0,149,messy-auslese,1920,62,2
+62,Chardonnay,rosé,1920,0,166,acute-beaujolais,1920,62,3
+62,Chardonnay,rosé,1920,0,212,presto-moscato,1920,73,3
+62,Chardonnay,rosé,1920,0,221,intense-chardonnay,1920,7,3
+62,Chardonnay,rosé,1920,0,223,breezy-chablis,1920,73,2
+12

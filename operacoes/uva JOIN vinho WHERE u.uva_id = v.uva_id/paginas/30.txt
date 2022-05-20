@@ -1,0 +1,13 @@
+53,Sultana,rosé,1979,1,50,acute-pinot,1988,53,1
+53,Sultana,rosé,1979,1,82,intricate-lambrusco,1988,53,1
+53,Sultana,rosé,1979,1,132,lime-auslese,1988,53,1
+53,Sultana,rosé,1979,1,308,perpendicular-mead,1988,53,3
+53,Sultana,rosé,1979,1,350,red-zinfandel,1988,53,3
+53,Sultana,rosé,1979,1,426,collinear-prosecco,1988,53,3
+53,Sultana,rosé,1979,1,431,ebony-chianti,1988,53,1
+54,Purple Cornichon,branco,1919,2,141,brave-pinot,1928,54,0
+54,Purple Cornichon,branco,1919,2,152,isomorphic-burgundy,1928,54,1
+54,Purple Cornichon,branco,1919,2,244,zesty-lambrusco,1928,54,1
+54,Purple Cornichon,branco,1919,2,401,careful-grappa,1928,54,1
+54,Purple Cornichon,branco,1919,2,468,forward-lambrusco,1928,54,3
+12

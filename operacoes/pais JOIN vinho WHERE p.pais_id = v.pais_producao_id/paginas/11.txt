@@ -1,0 +1,13 @@
+1,Portugal,PRT,26,cold-marsanne,2006,17,1
+1,Portugal,PRT,27,threaded-chablis,1968,65,1
+1,Portugal,PRT,30,funny-barbaresco,1964,60,1
+1,Portugal,PRT,32,flat-claret,1934,32,1
+1,Portugal,PRT,34,weathered-marsanne,1934,32,1
+1,Portugal,PRT,35,warm-champagne,2002,13,1
+1,Portugal,PRT,43,buoyant-lambrusco,1934,32,1
+1,Portugal,PRT,48,relaxed-lambrusco,1934,37,1
+1,Portugal,PRT,49,achromatic-prosecco,1998,50,1
+1,Portugal,PRT,50,acute-pinot,1988,53,1
+1,Portugal,PRT,59,gray-auslese,1964,60,1
+1,Portugal,PRT,64,large-mead,1936,63,1
+12

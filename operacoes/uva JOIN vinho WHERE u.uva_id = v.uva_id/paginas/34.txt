@@ -1,0 +1,13 @@
+60,Chardonnay,rosé,1957,3,255,humble-merlot,1964,60,2
+60,Chardonnay,rosé,1957,3,307,brown-champagne,1964,60,1
+60,Chardonnay,rosé,1957,3,319,medium-madeira,1964,60,2
+60,Chardonnay,rosé,1957,3,335,figurative-amarone,1964,60,1
+60,Chardonnay,rosé,1957,3,481,timid-moscato,1964,60,2
+60,Chardonnay,rosé,1957,3,487,oriented-arneis,1964,60,3
+61,Riesling,branco,1984,0,123,bronze-merlot,1988,61,2
+61,Riesling,branco,1984,0,153,blue-rosé,1988,61,2
+61,Riesling,branco,1984,0,177,sleek-noir,1988,61,3
+61,Riesling,branco,1984,0,241,burning-chablis,1988,61,0
+61,Riesling,branco,1984,0,249,nippy-dolcetto,1988,61,0
+61,Riesling,branco,1984,0,323,silent-merlot,1988,61,3
+12

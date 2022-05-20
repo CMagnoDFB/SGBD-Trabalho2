@@ -1,0 +1,13 @@
+29,Purple Cornichon,rosé,1988,1,311,absolute-albariño,1988,18,1
+29,Purple Cornichon,rosé,1988,1,323,silent-merlot,1988,61,3
+29,Purple Cornichon,rosé,1988,1,340,express-chianti,1988,18,3
+29,Purple Cornichon,rosé,1988,1,350,red-zinfandel,1988,53,3
+29,Purple Cornichon,rosé,1988,1,418,icy-prosecco,1988,61,1
+29,Purple Cornichon,rosé,1988,1,426,collinear-prosecco,1988,53,3
+29,Purple Cornichon,rosé,1988,1,431,ebony-chianti,1988,53,1
+29,Purple Cornichon,rosé,1988,1,483,frosty-bardolino,1988,18,2
+30,Merlot,tinto,1988,3,13,concrete-zinfandel,1988,18,1
+30,Merlot,tinto,1988,3,18,serious-bardolino,1988,53,2
+30,Merlot,tinto,1988,3,28,charcoal-arneis,1988,53,3
+30,Merlot,tinto,1988,3,50,acute-pinot,1988,53,1
+12

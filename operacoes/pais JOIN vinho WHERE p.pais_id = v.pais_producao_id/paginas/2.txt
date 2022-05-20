@@ -1,0 +1,13 @@
+0,Argentina,ARG,104,partial-chardonnay,1916,12,0
+0,Argentina,ARG,105,bare-chardonnay,1944,59,0
+0,Argentina,ARG,106,numerous-banylus,1968,6,0
+0,Argentina,ARG,108,exothermic-banylus,1942,35,0
+0,Argentina,ARG,122,beige-bardolino,1920,62,0
+0,Argentina,ARG,128,right-cabernet,2014,51,0
+0,Argentina,ARG,141,brave-pinot,1928,54,0
+0,Argentina,ARG,147,bone-zinfandel,1988,18,0
+0,Argentina,ARG,154,cream-cabernet,1996,22,0
+0,Argentina,ARG,156,light-chianti,1996,11,0
+0,Argentina,ARG,163,neat-chinon,1994,15,0
+0,Argentina,ARG,165,magnetic-chinon,1936,63,0
+12

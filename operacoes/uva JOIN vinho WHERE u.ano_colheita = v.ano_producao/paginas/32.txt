@@ -1,0 +1,13 @@
+67,Cabernet Sauvignon,rosé,1958,3,477,cruel-cabernet,1958,66,0
+67,Cabernet Sauvignon,rosé,1958,3,478,unsorted-muscat,1958,26,3
+67,Cabernet Sauvignon,rosé,1958,3,498,avocado-champagne,1958,26,0
+68,Muscat Hamburg,branco,1964,0,30,funny-barbaresco,1964,60,1
+68,Muscat Hamburg,branco,1964,0,36,frosty-claret,1964,20,2
+68,Muscat Hamburg,branco,1964,0,54,annoying-zinfandel,1964,20,3
+68,Muscat Hamburg,branco,1964,0,59,gray-auslese,1964,60,1
+68,Muscat Hamburg,branco,1964,0,164,stale-lambrusco,1964,60,3
+68,Muscat Hamburg,branco,1964,0,204,rapid-grappa,1964,60,1
+68,Muscat Hamburg,branco,1964,0,231,staccato-zinfandel,1964,20,3
+68,Muscat Hamburg,branco,1964,0,255,humble-merlot,1964,60,2
+68,Muscat Hamburg,branco,1964,0,307,brown-champagne,1964,60,1
+12

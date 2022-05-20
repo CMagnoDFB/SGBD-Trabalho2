@@ -1,0 +1,13 @@
+3,Argentina,ARG,359,tense-sauvignon,1950,23,3
+3,Argentina,ARG,362,scared-madeira,1942,35,3
+3,Argentina,ARG,368,pizzicato-riesling,1928,40,3
+3,Argentina,ARG,369,sunny-claret,1936,63,3
+3,Argentina,ARG,371,ascent-pinot,1920,62,3
+3,Argentina,ARG,372,internal-zinfandel,1980,16,3
+3,Argentina,ARG,373,brute-lambrusco,2016,72,3
+3,Argentina,ARG,374,primary-barbaresco,1934,32,3
+3,Argentina,ARG,375,curious-noir,2010,28,3
+3,Argentina,ARG,377,sparse-mead,1912,45,3
+3,Argentina,ARG,379,bounded-lambrusco,1916,5,3
+3,Argentina,ARG,383,daring-claret,1968,65,3
+12

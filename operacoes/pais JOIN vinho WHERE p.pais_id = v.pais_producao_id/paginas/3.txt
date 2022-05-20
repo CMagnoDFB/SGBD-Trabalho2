@@ -1,0 +1,13 @@
+0,Argentina,ARG,168,oily-lambrusco,1930,21,0
+0,Argentina,ARG,173,descent-chinon,1910,56,0
+0,Argentina,ARG,178,null-grappa,1968,68,0
+0,Argentina,ARG,181,honest-bardolino,1916,38,0
+0,Argentina,ARG,186,chalky-champagne,1992,33,0
+0,Argentina,ARG,191,green-muscat,1978,0,0
+0,Argentina,ARG,195,wan-noir,1950,23,0
+0,Argentina,ARG,197,ragged-albariño,1974,31,0
+0,Argentina,ARG,198,silver-banylus,1950,23,0
+0,Argentina,ARG,199,freezing-blanc,1996,11,0
+0,Argentina,ARG,200,objective-arneis,1948,49,0
+0,Argentina,ARG,209,violent-sherry,1912,64,0
+12

@@ -1,0 +1,13 @@
+6,Riesling,branco,1964,1,59,gray-auslese,1964,60,1
+6,Riesling,branco,1964,1,164,stale-lambrusco,1964,60,3
+6,Riesling,branco,1964,1,204,rapid-grappa,1964,60,1
+6,Riesling,branco,1964,1,231,staccato-zinfandel,1964,20,3
+6,Riesling,branco,1964,1,255,humble-merlot,1964,60,2
+6,Riesling,branco,1964,1,307,brown-champagne,1964,60,1
+6,Riesling,branco,1964,1,319,medium-madeira,1964,60,2
+6,Riesling,branco,1964,1,335,figurative-amarone,1964,60,1
+6,Riesling,branco,1964,1,337,trusting-chardonnay,1964,20,2
+6,Riesling,branco,1964,1,400,vain-pinot,1964,20,1
+6,Riesling,branco,1964,1,481,timid-moscato,1964,60,2
+6,Riesling,branco,1964,1,484,vivid-madeira,1964,20,3
+12

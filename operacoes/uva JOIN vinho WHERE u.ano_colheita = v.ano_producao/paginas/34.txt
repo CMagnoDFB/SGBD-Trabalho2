@@ -1,0 +1,13 @@
+71,Ruby Seedless,tinto,2014,0,155,champagne-banylus,2014,8,3
+71,Ruby Seedless,tinto,2014,0,187,stern-champagne,2014,51,2
+71,Ruby Seedless,tinto,2014,0,257,indulgent-dolcetto,2014,8,1
+71,Ruby Seedless,tinto,2014,0,260,wood-noir,2014,51,0
+71,Ruby Seedless,tinto,2014,0,265,cold-madeira,2014,51,2
+71,Ruby Seedless,tinto,2014,0,280,molten-riesling,2014,8,1
+71,Ruby Seedless,tinto,2014,0,289,staff-burgundy,2014,8,2
+71,Ruby Seedless,tinto,2014,0,448,gravitational-dolcetto,2014,51,3
+74,Flame Seedless,branco,1960,2,21,strong-chinon,1960,74,2
+74,Flame Seedless,branco,1960,2,228,coincident-sauvignon,1960,74,3
+74,Flame Seedless,branco,1960,2,278,purple-muscat,1960,74,2
+74,Flame Seedless,branco,1960,2,338,shy-banylus,1960,74,2
+12

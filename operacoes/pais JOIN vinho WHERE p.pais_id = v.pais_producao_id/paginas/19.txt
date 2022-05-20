@@ -1,0 +1,13 @@
+1,Portugal,PRT,390,rosy-prosecco,2006,17,1
+1,Portugal,PRT,393,closed-merlot,1972,25,1
+1,Portugal,PRT,397,parallel-riesling,1952,48,1
+1,Portugal,PRT,400,vain-pinot,1964,20,1
+1,Portugal,PRT,401,careful-grappa,1928,54,1
+1,Portugal,PRT,403,beveled-chablis,1968,68,1
+1,Portugal,PRT,408,basic-riesling,1958,52,1
+1,Portugal,PRT,418,icy-prosecco,1988,61,1
+1,Portugal,PRT,422,national-madeira,2018,71,1
+1,Portugal,PRT,428,crabby-auslese,1948,49,1
+1,Portugal,PRT,430,randomized-grappa,1912,64,1
+1,Portugal,PRT,431,ebony-chianti,1988,53,1
+12

@@ -1,0 +1,13 @@
+30,Merlot,tinto,1988,3,256,optimal-albariño,1988,18,3
+30,Merlot,tinto,1988,3,306,wooden-moscato,1988,18,0
+30,Merlot,tinto,1988,3,308,perpendicular-mead,1988,53,3
+30,Merlot,tinto,1988,3,311,absolute-albariño,1988,18,1
+30,Merlot,tinto,1988,3,323,silent-merlot,1988,61,3
+30,Merlot,tinto,1988,3,340,express-chianti,1988,18,3
+30,Merlot,tinto,1988,3,350,red-zinfandel,1988,53,3
+30,Merlot,tinto,1988,3,418,icy-prosecco,1988,61,1
+30,Merlot,tinto,1988,3,426,collinear-prosecco,1988,53,3
+30,Merlot,tinto,1988,3,431,ebony-chianti,1988,53,1
+30,Merlot,tinto,1988,3,483,frosty-bardolino,1988,18,2
+31,Sauvignon Blanc,tinto,1972,0,100,glass-barolo,1972,25,2
+12

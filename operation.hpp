@@ -34,7 +34,7 @@ public:
         vector<string> headerVec = split(line, ',');
         for (int i = 0; i < headerVec.size(); i++)
         {
-            (this->nome_para_indice).insert(pair<string, int>(headerVec[i], i));
+            nome_para_indice.insert(make_pair(headerVec[i], i));
         }
 
         // Transformando as linhas do CSV em páginas
@@ -43,8 +43,8 @@ public:
         bool stop = false;
         while (stop == false)
         {
-
-            ofstream page_file(path_pags + to_string(pageName) + ".txt");
+            ofstream page_file;
+            page_file.open(path_pags + to_string(pageName) + ".txt");
 
             while (count < PAGE_SIZE && getline(csv_file, line))
             {
@@ -65,6 +65,14 @@ public:
                 stop = true;
             }
         }
+        ifstream page_file(path_pags + "0.txt");
+        // Verifique os atributos inteiros, exceto o id
+        auto tuple = getline_vector(page_file);
+        page_file.close();
+        vector<int> ind_colunas;
+        for (int i = 1; i < tuple.size(); i++)
+            if (is_number(tuple[i]))
+                Diretorio dir(nome, csv, i);
         this->salvar_tabela();
     }
     void salvar_tabela()
@@ -159,6 +167,7 @@ public:
         {
             // cout << "Não há índices em nenhum dos atributos escolhidos" << endl;
             this->viabilidade = false;
+            return;
         }
         /*
         cout << "Viabilidade da operação = " << viabilidade << endl;
@@ -196,6 +205,11 @@ public:
     }
     void salvarTuplasGeradas(string csv_nome)
     {
+        if (!viabilidade)
+        {
+            cout << "\nNao eh possivel fazer a juncao\n";
+            return;
+        }
         ofstream csv(csv_nome);
         csv << externa.colunas << "," << interna.colunas << '\n';
         ifstream operacao(path + "tabela.txt");
@@ -221,6 +235,7 @@ public:
     void executar()
     {
         numIOs = 0;
+         if (!viabilidade) return;
         string pag_name, chave;
         string tuple_line, tuple2_line;
         int tuples_amount;

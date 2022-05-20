@@ -1,0 +1,13 @@
+2,Estados Unidos,EUA,208,dark-bardolino,1958,66,2
+2,Estados Unidos,EUA,218,poky-port,1912,45,2
+2,Estados Unidos,EUA,222,critical-amarone,1972,25,2
+2,Estados Unidos,EUA,223,breezy-chablis,1920,73,2
+2,Estados Unidos,EUA,232,brave-arneis,1942,35,2
+2,Estados Unidos,EUA,238,resultant-arneis,1942,35,2
+2,Estados Unidos,EUA,242,fat-muscat,1928,36,2
+2,Estados Unidos,EUA,243,charcoal-madeira,1996,11,2
+2,Estados Unidos,EUA,255,humble-merlot,1964,60,2
+2,Estados Unidos,EUA,259,unary-lambrusco,1968,27,2
+2,Estados Unidos,EUA,263,grandioso-barbaresco,1996,11,2
+2,Estados Unidos,EUA,264,energetic-rosé,1978,24,2
+12

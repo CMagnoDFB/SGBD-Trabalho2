@@ -1,0 +1,13 @@
+2,Estados Unidos,EUA,24,Merlot,tinto,1974,2
+2,Estados Unidos,EUA,26,Sultana,tinto,1954,2
+2,Estados Unidos,EUA,28,Chardonnay,tinto,2010,2
+2,Estados Unidos,EUA,36,Saint Macaire,rosé,1924,2
+2,Estados Unidos,EUA,37,Chardonnay,rosé,1927,2
+2,Estados Unidos,EUA,43,Saint Macaire,branco,1954,2
+2,Estados Unidos,EUA,47,Riesling,branco,1913,2
+2,Estados Unidos,EUA,50,Purple Cornichon,rosé,1989,2
+2,Estados Unidos,EUA,52,Cabernet Sauvignon,tinto,1954,2
+2,Estados Unidos,EUA,54,Purple Cornichon,branco,1919,2
+2,Estados Unidos,EUA,55,Sultana,rosé,1965,2
+2,Estados Unidos,EUA,56,Viognier,rosé,1910,2
+12

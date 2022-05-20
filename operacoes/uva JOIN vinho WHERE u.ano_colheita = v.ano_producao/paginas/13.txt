@@ -1,0 +1,13 @@
+23,Viognier,tinto,1950,2,17,radiant-champagne,1950,23,0
+23,Viognier,tinto,1950,2,20,khaki-malbec,1950,23,3
+23,Viognier,tinto,1950,2,38,crunchy-burgundy,1950,19,2
+23,Viognier,tinto,1950,2,72,human-burgundy,1950,23,0
+23,Viognier,tinto,1950,2,86,bone-chianti,1950,23,3
+23,Viognier,tinto,1950,2,103,mute-zinfandel,1950,23,0
+23,Viognier,tinto,1950,2,110,chartreuse-rosé,1950,19,1
+23,Viognier,tinto,1950,2,195,wan-noir,1950,23,0
+23,Viognier,tinto,1950,2,198,silver-banylus,1950,23,0
+23,Viognier,tinto,1950,2,235,internal-rosé,1950,23,1
+23,Viognier,tinto,1950,2,239,internal-albariño,1950,23,0
+23,Viognier,tinto,1950,2,317,charitable-muscat,1950,19,1
+12

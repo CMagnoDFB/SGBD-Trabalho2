@@ -1,0 +1,13 @@
+6,Riesling,branco,1964,1,487,oriented-arneis,1964,60,3
+6,Riesling,branco,1964,1,489,mild-chinon,1964,20,0
+7,Sauvignon Blanc,branco,1920,2,39,lower-chianti,1920,7,2
+7,Sauvignon Blanc,branco,1920,2,51,colorful-chinon,1920,7,2
+7,Sauvignon Blanc,branco,1920,2,76,plum-grappa,1920,62,0
+7,Sauvignon Blanc,branco,1920,2,112,freezing-prosecco,1920,7,3
+7,Sauvignon Blanc,branco,1920,2,118,indigo-bardolino,1920,62,1
+7,Sauvignon Blanc,branco,1920,2,122,beige-bardolino,1920,62,0
+7,Sauvignon Blanc,branco,1920,2,134,faint-barbaresco,1920,7,3
+7,Sauvignon Blanc,branco,1920,2,137,adaptive-champagne,1920,4,3
+7,Sauvignon Blanc,branco,1920,2,149,messy-auslese,1920,62,2
+7,Sauvignon Blanc,branco,1920,2,166,acute-beaujolais,1920,62,3
+12

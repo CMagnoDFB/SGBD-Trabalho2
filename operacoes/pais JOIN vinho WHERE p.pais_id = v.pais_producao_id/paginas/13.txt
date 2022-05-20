@@ -1,0 +1,13 @@
+1,Portugal,PRT,109,fast-madeira,1948,44,1
+1,Portugal,PRT,110,chartreuse-rosé,1950,19,1
+1,Portugal,PRT,114,plumb-shiraz,2002,13,1
+1,Portugal,PRT,116,open-port,1968,65,1
+1,Portugal,PRT,117,coplanar-chablis,1974,31,1
+1,Portugal,PRT,118,indigo-bardolino,1920,62,1
+1,Portugal,PRT,132,lime-auslese,1988,53,1
+1,Portugal,PRT,133,tense-sauvignon,1944,59,1
+1,Portugal,PRT,139,adagio-mead,1916,5,1
+1,Portugal,PRT,140,each-mead,2016,46,1
+1,Portugal,PRT,142,ferocious-muscat,1958,39,1
+1,Portugal,PRT,144,chilly-prosecco,1994,15,1
+12

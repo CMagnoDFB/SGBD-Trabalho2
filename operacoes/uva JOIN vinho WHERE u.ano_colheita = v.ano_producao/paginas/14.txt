@@ -1,0 +1,13 @@
+23,Viognier,tinto,1950,2,341,ragged-amarone,1950,19,3
+23,Viognier,tinto,1950,2,359,tense-sauvignon,1950,23,3
+24,Merlot,tinto,1974,2,11,shy-sauvignon,1974,31,0
+24,Merlot,tinto,1974,2,77,jolly-rosé,1974,31,0
+24,Merlot,tinto,1974,2,83,balanced-amarone,1974,57,1
+24,Merlot,tinto,1974,2,87,relaxed-barbaresco,1974,31,0
+24,Merlot,tinto,1974,2,117,coplanar-chablis,1974,31,1
+24,Merlot,tinto,1974,2,121,equilateral-pinot,1974,57,2
+24,Merlot,tinto,1974,2,125,radiant-chablis,1974,57,2
+24,Merlot,tinto,1974,2,126,hoary-sauvignon,1974,57,2
+24,Merlot,tinto,1974,2,151,absolute-rosé,1974,57,3
+24,Merlot,tinto,1974,2,158,sparse-chianti,1974,57,1
+12

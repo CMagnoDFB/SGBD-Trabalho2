@@ -26,10 +26,15 @@ vector<string> split(string str, char delimiter = ',')
     vector<string> result;
     string word;
     while (getline(stream, word, delimiter))
-    {
         result.push_back(word);
-    }
     return result;
+}
+bool is_number(string& str)
+{
+    for (auto c : str)
+        if (isdigit(c) == 0)
+            return false;
+    return true;
 }
 vector<string> getline_vector(istream &x, char delimiter = ',')
 {

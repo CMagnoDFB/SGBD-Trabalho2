@@ -1,0 +1,13 @@
+29,Purple Cornichon,rosé,1988,1,247,lenient-moscato,1996,29,3
+29,Purple Cornichon,rosé,1988,1,386,ebony-chianti,1996,29,0
+29,Purple Cornichon,rosé,1988,1,445,each-moscato,1996,29,3
+29,Purple Cornichon,rosé,1988,1,450,chartreuse-chardonnay,1996,29,0
+30,Merlot,tinto,1988,3,0,jolly-barolo,1996,30,1
+30,Merlot,tinto,1988,3,305,religious-sauvignon,1996,30,2
+30,Merlot,tinto,1988,3,348,chewy-barolo,1996,30,1
+31,Sauvignon Blanc,tinto,1972,0,11,shy-sauvignon,1974,31,0
+31,Sauvignon Blanc,tinto,1972,0,77,jolly-rosé,1974,31,0
+31,Sauvignon Blanc,tinto,1972,0,87,relaxed-barbaresco,1974,31,0
+31,Sauvignon Blanc,tinto,1972,0,117,coplanar-chablis,1974,31,1
+31,Sauvignon Blanc,tinto,1972,0,197,ragged-albariño,1974,31,0
+12

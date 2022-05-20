@@ -1,0 +1,13 @@
+0,Argentina,ARG,446,gilded-port,1998,50,0
+0,Argentina,ARG,450,chartreuse-chardonnay,1996,29,0
+0,Argentina,ARG,452,chilly-chablis,1920,4,0
+0,Argentina,ARG,453,central-barolo,2010,28,0
+0,Argentina,ARG,454,nullary-chardonnay,1956,3,0
+0,Argentina,ARG,461,flush-pinot,1992,33,0
+0,Argentina,ARG,462,cold-grappa,1916,5,0
+0,Argentina,ARG,464,cautious-rosé,1968,65,0
+0,Argentina,ARG,466,investor-barbaresco,1960,74,0
+0,Argentina,ARG,467,hard-arneis,1996,22,0
+0,Argentina,ARG,473,hot-claret,1956,3,0
+0,Argentina,ARG,475,molto-port,1978,24,0
+12

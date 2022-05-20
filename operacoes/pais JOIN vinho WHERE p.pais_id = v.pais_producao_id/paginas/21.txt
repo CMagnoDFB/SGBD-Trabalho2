@@ -1,0 +1,13 @@
+1,Portugal,PRT,493,stone-moscato,1996,11,1
+1,Portugal,PRT,497,angry-noir,1948,44,1
+1,Portugal,PRT,499,brutal-sherry,2016,72,1
+2,Estados Unidos,EUA,2,potential-chardonnay,1968,6,2
+2,Estados Unidos,EUA,5,emerald-zinfandel,1948,1,2
+2,Estados Unidos,EUA,8,brownian-chardonnay,1996,11,2
+2,Estados Unidos,EUA,9,decidable-amarone,1968,68,2
+2,Estados Unidos,EUA,18,serious-bardolino,1988,53,2
+2,Estados Unidos,EUA,21,strong-chinon,1960,74,2
+2,Estados Unidos,EUA,22,sluggish-pinot,2018,71,2
+2,Estados Unidos,EUA,23,mean-barolo,1942,35,2
+2,Estados Unidos,EUA,29,chilly-chardonnay,1958,34,2
+12

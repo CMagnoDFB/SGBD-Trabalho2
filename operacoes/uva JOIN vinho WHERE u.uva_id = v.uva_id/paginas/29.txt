@@ -1,0 +1,13 @@
+51,Chardonnay,branco,2007,3,260,wood-noir,2014,51,0
+51,Chardonnay,branco,2007,3,265,cold-madeira,2014,51,2
+51,Chardonnay,branco,2007,3,448,gravitational-dolcetto,2014,51,3
+52,Cabernet Sauvignon,tinto,1954,2,74,annoying-rosé,1958,52,1
+52,Cabernet Sauvignon,tinto,1954,2,135,kinetic-burgundy,1958,52,3
+52,Cabernet Sauvignon,tinto,1954,2,266,heather-chianti,1958,52,0
+52,Cabernet Sauvignon,tinto,1954,2,271,taxonomic-banylus,1958,52,2
+52,Cabernet Sauvignon,tinto,1954,2,406,juvenile-champagne,1958,52,0
+52,Cabernet Sauvignon,tinto,1954,2,408,basic-riesling,1958,52,1
+52,Cabernet Sauvignon,tinto,1954,2,463,sizzling-merlot,1958,52,2
+53,Sultana,rosé,1979,1,18,serious-bardolino,1988,53,2
+53,Sultana,rosé,1979,1,28,charcoal-arneis,1988,53,3
+12

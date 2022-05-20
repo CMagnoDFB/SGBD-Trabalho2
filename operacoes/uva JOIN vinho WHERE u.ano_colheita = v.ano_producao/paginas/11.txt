@@ -1,0 +1,13 @@
+22,Chardonnay,tinto,1988,3,61,cheerful-burgundy,1988,18,0
+22,Chardonnay,tinto,1988,3,82,intricate-lambrusco,1988,53,1
+22,Chardonnay,tinto,1988,3,123,bronze-merlot,1988,61,2
+22,Chardonnay,tinto,1988,3,132,lime-auslese,1988,53,1
+22,Chardonnay,tinto,1988,3,147,bone-zinfandel,1988,18,0
+22,Chardonnay,tinto,1988,3,150,auburn-zinfandel,1988,18,2
+22,Chardonnay,tinto,1988,3,153,blue-rosé,1988,61,2
+22,Chardonnay,tinto,1988,3,177,sleek-noir,1988,61,3
+22,Chardonnay,tinto,1988,3,189,decidable-prosecco,1988,18,3
+22,Chardonnay,tinto,1988,3,241,burning-chablis,1988,61,0
+22,Chardonnay,tinto,1988,3,249,nippy-dolcetto,1988,61,0
+22,Chardonnay,tinto,1988,3,252,cool-mead,1988,18,1
+12
